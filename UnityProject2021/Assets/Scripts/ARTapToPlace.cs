@@ -1,18 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
+using UnityEngine.Experimental.XR;
+using System;
 
 public class ARTapToPlace : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private ARSessionOrigin arOrigin;
+    private Pose placementPose;
     void Start()
     {
-        
+       arOrigin = FindObjectOfType<ARSessionOrigin>();
+
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        UpdatePlacementPose();
+    }
+
+    private void UpdatePlacementPose()
+    {
+    
     }
 }
