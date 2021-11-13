@@ -4819,8 +4819,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movedObject: {fileID: 3643170108887943414}
-  speed_min: 0.05
-  speed_max: 0.3
+  speed_min: 0.1
+  speed_max: 0.2
   speed: 0
 --- !u!1 &6828369599378149171
 GameObject:

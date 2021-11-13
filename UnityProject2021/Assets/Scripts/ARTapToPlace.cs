@@ -18,6 +18,8 @@ public class ARTapToPlace : MonoBehaviour
 
     void Update()
     {
+
+
         if (useCursor)
         {
             UpdateCursor();
@@ -28,6 +30,9 @@ public class ARTapToPlace : MonoBehaviour
             if (useCursor)
             {
                 GameObject.Instantiate(objectToPlace, transform.position, transform.rotation);
+                // Then end placement
+                cursorChildObject.SetActive(false);
+                enabled = false;
             }
             else
             {
@@ -36,6 +41,7 @@ public class ARTapToPlace : MonoBehaviour
                 if (hits.Count > 0)
                 {
                     GameObject.Instantiate(objectToPlace, hits[0].pose.position, hits[0].pose.rotation);
+
                 }
             }
         }

@@ -662,7 +662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1380303964
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -975,7 +975,6 @@ GameObject:
   - component: {fileID: 1452684443}
   - component: {fileID: 1452684442}
   - component: {fileID: 1452684441}
-  - component: {fileID: 1452684440}
   m_Layer: 0
   m_Name: Hospital
   m_TagString: Untagged
@@ -1000,20 +999,6 @@ Transform:
   m_Father: {fileID: 1521584806}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1452684440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452684438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9650fdeca37bb34482a3aab2afcb70c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetTime: 3
-  objectToSpawn: {fileID: 3643170108887943414, guid: 468db55fc2e2b3d498fd078d68124e9e, type: 3}
 --- !u!65 &1452684441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1159,6 +1144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1521584806}
+  - component: {fileID: 1521584807}
   m_Layer: 0
   m_Name: Main Object
   m_TagString: Untagged
@@ -1181,6 +1167,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1521584807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521584805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9650fdeca37bb34482a3aab2afcb70c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawntime_initial: 3
+  spawntime_min: 2
+  spawntime_max: 7
+  objectToSpawn: {fileID: 3643170108887943414, guid: 468db55fc2e2b3d498fd078d68124e9e, type: 3}
 --- !u!1 &1569916321
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,7 +1228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorChildObject: {fileID: 1569916321}
-  objectToPlace: {fileID: 5504519211333610133, guid: 1146ca860aa671e489f7bf86b41e8413, type: 3}
+  objectToPlace: {fileID: 1521584805}
   raycastManager: {fileID: 1452765179}
   useCursor: 1
 --- !u!1 &1616642376
