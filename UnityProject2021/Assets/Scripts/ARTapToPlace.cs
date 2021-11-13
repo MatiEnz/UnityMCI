@@ -9,7 +9,10 @@ public class ARTapToPlace : MonoBehaviour
     public GameObject objectToPlace;
     public ARRaycastManager raycastManager;
 
+    public GameObject shootingEngine;
+
     public bool useCursor = true;
+    public static Vector3 virusTarget = new Vector3();
 
     void Start()
     {
@@ -30,7 +33,8 @@ public class ARTapToPlace : MonoBehaviour
             if (useCursor)
             {
                 GameObject.Instantiate(objectToPlace, transform.position, transform.rotation);
-                // Then end placement
+                virusTarget = transform.position;
+                shootingEngine.SetActive(true);
                 cursorChildObject.SetActive(false);
                 enabled = false;
             }

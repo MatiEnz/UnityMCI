@@ -4,18 +4,20 @@ using UnityEngine;
 
  public class SpawnInfected: MonoBehaviour {
  
- public float spawntime_initial = 3.0f;
+ private float spawntime_countdown = 3.0f;
  public float spawntime_min = 1.0f;
  public float spawntime_max = 7.0f;
 
- 
  public GameObject objectToSpawn;
+ public float spawnX;
+ public float spawnY;
+ public float spawnZ;
 
  void Update(){
  
- spawntime_initial -= Time.deltaTime;
+ spawntime_countdown -= Time.deltaTime;
  
- if (spawntime_initial <= 0.0f)
+ if (spawntime_countdown <= 0.0f)
  {
     timerEnded();
  }
@@ -24,8 +26,12 @@ using UnityEngine;
  
  void timerEnded()
  {
-    Instantiate(objectToSpawn, new Vector3(Random.Range(-1.5f,1.5f),0.0f,Random.Range(2.0f,2.5f)), Quaternion.identity);
-    spawntime_initial = Random.Range(spawntime_min,spawntime_max);
+    spawnX = ARTapToPlace.virusTarget.x + Random.Range(-1.5f,1.5f);
+    spawnY = ARTapToPlace.virusTarget.y + Random.Range(0.0f,0.5f);
+    spawnZ = ARTapToPlace.virusTarget.z + Random.Range(2.0f,2.5f);
+
+    Instantiate(objectToSpawn, new Vector3(spawnX,spawnY,spawnZ), Quaternion.identity);
+    spawntime_countdown = Random.Range(spawntime_min,spawntime_max);
  }
  
  

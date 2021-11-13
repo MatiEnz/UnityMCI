@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637723923243823590
+      ticks: 637723929460350057
     m_Hash: 1690723516
   m_LockFileStatus:
     m_FilePath: C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637723923243886772
+      ticks: 637723929460433287
     m_Hash: 4069411894
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

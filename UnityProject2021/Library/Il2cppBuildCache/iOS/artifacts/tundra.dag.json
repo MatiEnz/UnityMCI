@@ -20,26 +20,49 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.21f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp --additional-cpp=C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed --generatedcppdir=C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput",
+      "Annotation": "Il2Cpp C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.21f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp --additional-cpp=C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed --generatedcppdir=C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput",
       "Inputs": [
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/Mono.Security.dll",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/mscorlib.dll",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/System.Configuration.dll",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/System.Core.dll",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/System.dll",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/System.Xml.dll",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.dll",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/System.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
         "\"C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
       ],
       "Outputs": [
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -52,13 +75,13 @@
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "Copy Additional C++ File C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
-      "Action": "copy \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityProject2021\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\additionalCppFiles\\UnityClassRegistration.cpp\" \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityProject2021\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" && copy /b \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityProject2021\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" +,, \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityProject2021\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "copy \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityMCI\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\additionalCppFiles\\UnityClassRegistration.cpp\" \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityMCI\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" && copy /b \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityMCI\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" +,, \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityMCI\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" ",
       "Inputs": [
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
       ],
       "Outputs": [
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -75,13 +98,13 @@
       "DebugActionIndex": 2
     },
     {
-      "Annotation": "Copy Additional C++ File C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
-      "Action": "copy \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityProject2021\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\additionalCppFiles\\UnityICallRegistration.cpp\" \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityProject2021\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" && copy /b \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityProject2021\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" +,, \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityProject2021\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "copy \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityMCI\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\additionalCppFiles\\UnityICallRegistration.cpp\" \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityMCI\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" && copy /b \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityMCI\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" +,, \"C:\\Users\\matie\\OneDrive\\Dokumente\\GitHub\\UnityMCI\\UnityProject2021\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" ",
       "Inputs": [
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
       ],
       "Outputs": [
-        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityProject2021/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
