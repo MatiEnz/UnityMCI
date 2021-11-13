@@ -21,7 +21,8 @@ public GameObject movedObject;
          transform.position = Vector3.MoveTowards(transform.position, Vector3.zero, step);
          if(transform.position == Vector3.zero)
          {
-            Destroy(movedObject);
+               Global.count++;   
+               Destroy(movedObject);
          }
      }
 }
