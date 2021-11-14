@@ -49,9 +49,7 @@ MonoBehaviour:
   spawntime_min: 2
   spawntime_max: 7
   objectToSpawn: {fileID: 6184603367023247375, guid: 468db55fc2e2b3d498fd078d68124e9e, type: 3}
-  spawnX: 0
-  spawnY: 0
-  spawnZ: 0
+  spawnInLine: 1
 --- !u!1 &7438040948627855724
 GameObject:
   m_ObjectHideFlags: 0
