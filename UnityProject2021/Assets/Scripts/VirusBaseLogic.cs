@@ -5,6 +5,7 @@ using UnityEngine;
 public class VirusBaseLogic : MonoBehaviour
 {
      public GameObject movedObject;
+     public GameObject targetObject;
      public float speed_min = 0.1f;
      public float speed_max = 0.2f;
      [SerializeField] private float speed;
@@ -16,7 +17,7 @@ public class VirusBaseLogic : MonoBehaviour
      void Update()
     {
          float step = speed * Time.deltaTime;
-         transform.position = Vector3.MoveTowards(transform.position, ARTapToPlace.virusTarget, step);
+         transform.position = Vector3.MoveTowards(transform.position, targetObject.transform.position, step);
      }
     void OnTriggerEnter(Collider other)
     {

@@ -16,7 +16,7 @@ public class ShootTest : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            projectileOrigin = new Vector3(arCamera.position.x, arCamera.position.y-0.1f, arCamera.position.z-0.05f);
+            projectileOrigin = new Vector3(arCamera.position.x, arCamera.position.y-0.1f, arCamera.position.z);
             GameObject bullet = Instantiate(projectile, projectileOrigin, arCamera.rotation) as GameObject;
             bullet.GetComponent<Rigidbody>().AddForce(arCamera.forward * shootForce);
             bullet.GetComponent<Rigidbody>().AddForce(arCamera.up * shootUp);

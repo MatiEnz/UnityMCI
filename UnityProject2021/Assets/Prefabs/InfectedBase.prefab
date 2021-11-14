@@ -5820,6 +5820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movedObject: {fileID: 6184603367023247375}
+  targetObject: {fileID: 7438040948625497719, guid: ef2719c7737b23c4f856e9e3665c60aa, type: 3}
   speed_min: 0.1
   speed_max: 0.2
   speed: 0
@@ -5839,7 +5840,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!135 &972791586279183910
 SphereCollider:
   m_ObjectHideFlags: 0

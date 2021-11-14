@@ -280,10 +280,34 @@ static void Health_tB86D9293C9CF1E5B8E4C7271395F56DD4C67AE96_CustomAttributesCac
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
+static void Spawner_t25C5C437F30ECF728D29E0B315C67659B99BEA87_CustomAttributesCacheGenerator_spawnInLine(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void VirusBaseLogic_t3E9A5994CD6D262707C18139644942E8823AC09E_CustomAttributesCacheGenerator_speed(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void VirusBaseLogic_t3E9A5994CD6D262707C18139644942E8823AC09E_CustomAttributesCacheGenerator_health(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[2] = 
+const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[5] = 
 {
 	Health_tB86D9293C9CF1E5B8E4C7271395F56DD4C67AE96_CustomAttributesCacheGenerator_health,
+	Spawner_t25C5C437F30ECF728D29E0B315C67659B99BEA87_CustomAttributesCacheGenerator_spawnInLine,
+	VirusBaseLogic_t3E9A5994CD6D262707C18139644942E8823AC09E_CustomAttributesCacheGenerator_speed,
+	VirusBaseLogic_t3E9A5994CD6D262707C18139644942E8823AC09E_CustomAttributesCacheGenerator_health,
 	AssemblyU2DCSharp_CustomAttributesCacheGenerator,
 };
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m8562196F90F3EBCEC23B5708EE0332842883C490_inline (RuntimeCompatibilityAttribute_tFF99AB2963098F9CBCD47A20D9FD3D51C17C1C80 * __this, bool ___value0, const RuntimeMethod* method)

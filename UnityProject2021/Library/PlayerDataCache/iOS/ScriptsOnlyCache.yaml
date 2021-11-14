@@ -2,12 +2,12 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ARTapToPlace
+    - ARTapToPlaceObject
     - Counter
-    - Health
-    - MoveToVirusTarget
     - Shoot
     - ShootTest
-    - SpawnInfected
+    - Spawner
+    - VirusBaseLogic
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -65,6 +65,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 75
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -90,8 +92,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 3502}
-    - Class: 114
       Script: {instanceID: 3676}
     - Class: 114
       Script: {instanceID: 3880}
@@ -111,6 +111,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4860}
     - Class: 114
       Script: {instanceID: 4980}
+    - Class: 114
+      Script: {instanceID: 18390}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -462,10 +464,10 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: a224dc0182c1208c0455fb011939ffda
+      Hash: c8e227061d9600a3c46f852f509f7945
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SpawnInfected
+    className: Spawner
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -654,7 +656,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 02722c86244f8f6b13cd4fe0e54e1c0d
+      Hash: be0c6038bcfe6c223ce3cf1287ef0f48
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Shoot
@@ -750,7 +752,7 @@ ScriptsOnlyBuild:
     className: SwingArmModel
   - hash:
       serializedVersion: 2
-      Hash: 02722c86244f8f6b13cd4fe0e54e1c0d
+      Hash: be0c6038bcfe6c223ce3cf1287ef0f48
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShootTest
@@ -834,10 +836,10 @@ ScriptsOnlyBuild:
     className: ARPointCloud
   - hash:
       serializedVersion: 2
-      Hash: ca817fd380da151e8880f44f80c9b137
+      Hash: 8315a9ff416576ecc8e3b8e51fb95f76
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MoveToVirusTarget
+    className: VirusBaseLogic
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -868,7 +870,13 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 9514e1251bab1b2696c700dca1485e79
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARTapToPlaceObject
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/app
+  playerPath: D:/lastOneToday
