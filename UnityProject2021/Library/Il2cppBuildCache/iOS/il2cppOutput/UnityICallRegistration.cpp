@@ -498,10 +498,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Collider_set_enabled();
 		Register_UnityEngine_Collider_set_enabled();
 
-		//UnityEngine.Rigidbody UnityEngine.Collider::get_attachedRigidbody()
-		void Register_UnityEngine_Collider_get_attachedRigidbody();
-		Register_UnityEngine_Collider_get_attachedRigidbody();
-
 	//End Registrations for type : UnityEngine.Collider
 
 	//Start Registrations for type : UnityEngine.Component
@@ -531,14 +527,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_ComputeShader_FindKernel();
 
 	//End Registrations for type : UnityEngine.ComputeShader
-
-	//Start Registrations for type : UnityEngine.ConstantForce
-
-		//System.Void UnityEngine.ConstantForce::set_force_Injected(UnityEngine.Vector3&)
-		void Register_UnityEngine_ConstantForce_set_force_Injected();
-		Register_UnityEngine_ConstantForce_set_force_Injected();
-
-	//End Registrations for type : UnityEngine.ConstantForce
 
 	//Start Registrations for type : UnityEngine.Coroutine
 
@@ -1934,10 +1922,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Rigidbody_AddForce_Injected();
 		Register_UnityEngine_Rigidbody_AddForce_Injected();
 
-		//System.Void UnityEngine.Rigidbody::set_velocity_Injected(UnityEngine.Vector3&)
-		void Register_UnityEngine_Rigidbody_set_velocity_Injected();
-		Register_UnityEngine_Rigidbody_set_velocity_Injected();
-
 	//End Registrations for type : UnityEngine.Rigidbody
 
 	//Start Registrations for type : UnityEngine.Screen
@@ -2529,10 +2513,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.Transform::get_childCount()
 		void Register_UnityEngine_Transform_get_childCount();
 		Register_UnityEngine_Transform_get_childCount();
-
-		//System.Void UnityEngine.Transform::Internal_LookAt_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
-		void Register_UnityEngine_Transform_Internal_LookAt_Injected();
-		Register_UnityEngine_Transform_Internal_LookAt_Injected();
 
 		//System.Void UnityEngine.Transform::InverseTransformDirection_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_InverseTransformDirection_Injected();

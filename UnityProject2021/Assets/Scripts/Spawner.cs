@@ -35,7 +35,7 @@ using UnityEngine;
     else
     {
       spawnX = transform.position.x + Random.Range(-1.5f,1.5f);
-      spawnY = transform.position.y + Random.Range(0.15f,0.5f);
+      spawnY = transform.position.y + Random.Range(0.1f,0.5f);
       spawnZ = transform.position.z + Random.Range(2.0f,2.5f);
     }
 
