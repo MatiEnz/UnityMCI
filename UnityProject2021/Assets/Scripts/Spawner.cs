@@ -11,6 +11,7 @@ using UnityEngine;
  private float spawnX;
  private float spawnY;
  private float spawnZ;
+ private Vector3 spawnPosition;
  [SerializeField] private bool spawnInLine = false;
 
  void Update(){
@@ -28,18 +29,21 @@ using UnityEngine;
  {
     if(spawnInLine)
     {
-      spawnX = transform.position.x + 0.0f;
-      spawnY = transform.position.y + 0.1f;
-      spawnZ = transform.position.z + 2.0f;
+      spawnX = 0.0f;
+      spawnY = 0.1f;
+      spawnZ = 2.0f;
+      spawnPosition = transform.TransformPoint(spawnX,spawnY,spawnZ);
     }
     else
     {
-      spawnX = transform.position.x + Random.Range(-1.5f,1.5f);
-      spawnY = transform.position.y + Random.Range(0.1f,0.5f);
-      spawnZ = transform.position.z + Random.Range(2.0f,2.5f);
+      spawnX = Random.Range(-1.5f,1.5f);
+      spawnY = Random.Range(0.1f,0.5f);
+      spawnZ = Random.Range(2.0f,2.5f);
+      spawnPosition = transform.TransformPoint(spawnX,spawnY,spawnZ);
     }
 
-    Instantiate(objectToSpawn, new Vector3(spawnX,spawnY,spawnZ), Quaternion.identity);
+    Instantiate(objectToSpawn, spawnPosition, transform.rotation);
+    //Instantiate(objectToSpawn, new Vector3(spawnX,spawnY,spawnZ), transform.rotation, gameObject.transform);
     spawntime_countdown = Random.Range(spawntime_min,spawntime_max);
  }
  

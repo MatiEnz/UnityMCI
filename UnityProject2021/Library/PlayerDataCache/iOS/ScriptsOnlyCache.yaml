@@ -32,6 +32,14 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -64,6 +72,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 75
       Script: {instanceID: 0}
     - Class: 81
@@ -74,6 +84,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1638}
     - Class: 114
@@ -83,33 +95,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2152}
     - Class: 114
-      Script: {instanceID: 2546}
+      Script: {instanceID: 2544}
+    - Class: 114
+      Script: {instanceID: 3366}
     - Class: 114
       Script: {instanceID: 3368}
     - Class: 114
-      Script: {instanceID: 3370}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 3374}
+      Script: {instanceID: 3674}
     - Class: 114
-      Script: {instanceID: 3678}
+      Script: {instanceID: 3878}
     - Class: 114
-      Script: {instanceID: 3882}
+      Script: {instanceID: 4094}
     - Class: 114
-      Script: {instanceID: 4098}
+      Script: {instanceID: 4168}
     - Class: 114
-      Script: {instanceID: 4172}
+      Script: {instanceID: 4354}
     - Class: 114
-      Script: {instanceID: 4358}
+      Script: {instanceID: 4538}
     - Class: 114
-      Script: {instanceID: 4542}
+      Script: {instanceID: 4684}
     - Class: 114
-      Script: {instanceID: 4688}
+      Script: {instanceID: 4712}
     - Class: 114
-      Script: {instanceID: 4716}
+      Script: {instanceID: 4858}
     - Class: 114
-      Script: {instanceID: 4862}
-    - Class: 114
-      Script: {instanceID: 4982}
+      Script: {instanceID: 4978}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -647,7 +659,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: be0c6038bcfe6c223ce3cf1287ef0f48
+      Hash: 49c0ae3731b4a5ae6f4a9b7fd1a18edb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Shoot
@@ -743,7 +755,7 @@ ScriptsOnlyBuild:
     className: SwingArmModel
   - hash:
       serializedVersion: 2
-      Hash: be0c6038bcfe6c223ce3cf1287ef0f48
+      Hash: 49c0ae3731b4a5ae6f4a9b7fd1a18edb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShootPC
@@ -827,7 +839,7 @@ ScriptsOnlyBuild:
     className: ARPointCloud
   - hash:
       serializedVersion: 2
-      Hash: b8f37ded595ae977cd36f98ed71cc607
+      Hash: f47a701106877463afe2f9f9f8958192
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: VirusLogic
@@ -864,4 +876,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/hereWeGo
+  playerPath: D:/lastOneToday
