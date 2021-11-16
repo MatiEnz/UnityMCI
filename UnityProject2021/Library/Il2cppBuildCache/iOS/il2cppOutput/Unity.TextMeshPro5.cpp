@@ -19763,7 +19763,7 @@ IL_01b2:
 		Mesh_t2F5992DBA650D5862B43D3823ACD997132A57DA6 * L_200 = L_199->get_mesh_4();
 		int32_t L_201 = __this->get_U3CmaterialIndexU3E5__4_10();
 		NullCheck(L_198);
-		VirtActionInvoker2< Mesh_t2F5992DBA650D5862B43D3823ACD997132A57DA6 *, int32_t >::Invoke(105 /* System.Void TMPro.TMP_Text::UpdateGeometry(UnityEngine.Mesh,System.Int32) */, L_198, L_200, L_201);
+		VirtActionInvoker2< Mesh_t2F5992DBA650D5862B43D3823ACD997132A57DA6 *, int32_t >::Invoke(107 /* System.Void TMPro.TMP_Text::UpdateGeometry(UnityEngine.Mesh,System.Int32) */, L_198, L_200, L_201);
 		// if (framerate > 0)
 		int32_t L_202 = __this->get_framerate_7();
 		if ((((int32_t)L_202) <= ((int32_t)0)))

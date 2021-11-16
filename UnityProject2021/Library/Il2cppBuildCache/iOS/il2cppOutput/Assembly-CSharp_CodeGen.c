@@ -42,22 +42,22 @@ extern void Placer__ctor_m0F69D782655D846DB6C49876C538A331EC72AA1B (void);
 extern void Shoot_Update_m6683B871E78A531DF27176CEB3ABA45D19EAC518 (void);
 // 0x0000000F System.Void Shoot::fireNeedle()
 extern void Shoot_fireNeedle_m9584A3289D757881BF72AB54838CEFF6C9CD3D2D (void);
-// 0x00000010 System.Void Shoot::.ctor()
+// 0x00000010 System.Collections.IEnumerator Shoot::Fire()
+extern void Shoot_Fire_m74812E4051844AF0DFBAA4E8D89F1A21DA6C637C (void);
+// 0x00000011 System.Void Shoot::.ctor()
 extern void Shoot__ctor_mF3726D8F4CF9CACD5F4A1B5CF58B9FB5A4F4DDC4 (void);
-// 0x00000011 System.Collections.IEnumerator Shoot::<fireNeedle>g__FireRate|8_0()
-extern void Shoot_U3CfireNeedleU3Eg__FireRateU7C8_0_m58FA09D4F4C862D33E7F5CF37E447AD7D1539A9B (void);
-// 0x00000012 System.Void Shoot/<<fireNeedle>g__FireRate|8_0>d::.ctor(System.Int32)
-extern void U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed__ctor_mB5E72EACD8C5EE6F59470AECB9628115606A8AAD (void);
-// 0x00000013 System.Void Shoot/<<fireNeedle>g__FireRate|8_0>d::System.IDisposable.Dispose()
-extern void U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed_System_IDisposable_Dispose_mD807849F027E85D544C1E9E65CF5D08BCA88DAED (void);
-// 0x00000014 System.Boolean Shoot/<<fireNeedle>g__FireRate|8_0>d::MoveNext()
-extern void U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed_MoveNext_mCAF61C818F6D4943BEA4C51B78930C43E8A05594 (void);
-// 0x00000015 System.Object Shoot/<<fireNeedle>g__FireRate|8_0>d::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m856173806E4BF460F7069BA4909B83C0DD337365 (void);
-// 0x00000016 System.Void Shoot/<<fireNeedle>g__FireRate|8_0>d::System.Collections.IEnumerator.Reset()
-extern void U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed_System_Collections_IEnumerator_Reset_m36C3B926DCC205A3CADF3991FCF5590E222173BF (void);
-// 0x00000017 System.Object Shoot/<<fireNeedle>g__FireRate|8_0>d::System.Collections.IEnumerator.get_Current()
-extern void U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed_System_Collections_IEnumerator_get_Current_mDA353A330AEB9EF0EF6BD8082DCFA958E5928F93 (void);
+// 0x00000012 System.Void Shoot/<Fire>d__9::.ctor(System.Int32)
+extern void U3CFireU3Ed__9__ctor_mDE368658A593CDC62F5ACC2B3B2ADDC98617DD12 (void);
+// 0x00000013 System.Void Shoot/<Fire>d__9::System.IDisposable.Dispose()
+extern void U3CFireU3Ed__9_System_IDisposable_Dispose_mD574F10D3E93C8DF10113F4D1A22B850D3DD6375 (void);
+// 0x00000014 System.Boolean Shoot/<Fire>d__9::MoveNext()
+extern void U3CFireU3Ed__9_MoveNext_m13C8D7A6B0D430339A1CBE36F8EFB29369D20E8A (void);
+// 0x00000015 System.Object Shoot/<Fire>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CFireU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8EA2D24DD16680630F503A4DD1DD2FA8A752749A (void);
+// 0x00000016 System.Void Shoot/<Fire>d__9::System.Collections.IEnumerator.Reset()
+extern void U3CFireU3Ed__9_System_Collections_IEnumerator_Reset_mBC55DD48BC19604199FBA8CC80093961061F7711 (void);
+// 0x00000017 System.Object Shoot/<Fire>d__9::System.Collections.IEnumerator.get_Current()
+extern void U3CFireU3Ed__9_System_Collections_IEnumerator_get_Current_m4FD8DFE32ADB61749D5FA8CF25DEED9F93998710 (void);
 // 0x00000018 System.Void ShootPC::Update()
 extern void ShootPC_Update_mA6622DA480E55BD454BA85C11639B2655141D307 (void);
 // 0x00000019 System.Void ShootPC::fireNeedle()
@@ -123,14 +123,14 @@ static Il2CppMethodPointer s_methodPointers[47] =
 	Placer__ctor_m0F69D782655D846DB6C49876C538A331EC72AA1B,
 	Shoot_Update_m6683B871E78A531DF27176CEB3ABA45D19EAC518,
 	Shoot_fireNeedle_m9584A3289D757881BF72AB54838CEFF6C9CD3D2D,
+	Shoot_Fire_m74812E4051844AF0DFBAA4E8D89F1A21DA6C637C,
 	Shoot__ctor_mF3726D8F4CF9CACD5F4A1B5CF58B9FB5A4F4DDC4,
-	Shoot_U3CfireNeedleU3Eg__FireRateU7C8_0_m58FA09D4F4C862D33E7F5CF37E447AD7D1539A9B,
-	U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed__ctor_mB5E72EACD8C5EE6F59470AECB9628115606A8AAD,
-	U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed_System_IDisposable_Dispose_mD807849F027E85D544C1E9E65CF5D08BCA88DAED,
-	U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed_MoveNext_mCAF61C818F6D4943BEA4C51B78930C43E8A05594,
-	U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m856173806E4BF460F7069BA4909B83C0DD337365,
-	U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed_System_Collections_IEnumerator_Reset_m36C3B926DCC205A3CADF3991FCF5590E222173BF,
-	U3CU3CfireNeedleU3Eg__FireRateU7C8_0U3Ed_System_Collections_IEnumerator_get_Current_mDA353A330AEB9EF0EF6BD8082DCFA958E5928F93,
+	U3CFireU3Ed__9__ctor_mDE368658A593CDC62F5ACC2B3B2ADDC98617DD12,
+	U3CFireU3Ed__9_System_IDisposable_Dispose_mD574F10D3E93C8DF10113F4D1A22B850D3DD6375,
+	U3CFireU3Ed__9_MoveNext_m13C8D7A6B0D430339A1CBE36F8EFB29369D20E8A,
+	U3CFireU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8EA2D24DD16680630F503A4DD1DD2FA8A752749A,
+	U3CFireU3Ed__9_System_Collections_IEnumerator_Reset_mBC55DD48BC19604199FBA8CC80093961061F7711,
+	U3CFireU3Ed__9_System_Collections_IEnumerator_get_Current_m4FD8DFE32ADB61749D5FA8CF25DEED9F93998710,
 	ShootPC_Update_mA6622DA480E55BD454BA85C11639B2655141D307,
 	ShootPC_fireNeedle_m4B9AF70B38B1CFDCB1F7403E18979A97104E28C6,
 	ShootPC__ctor_m0B58A7CF35D6D8B5F2FB89018D6B74EF68B63273,
@@ -164,8 +164,7 @@ static const int32_t s_InvokerIndices[47] =
 	2440,
 	2440,
 	2440,
-	3808,
-	2440,
+	3811,
 	2440,
 	2440,
 	2440,
@@ -175,6 +174,7 @@ static const int32_t s_InvokerIndices[47] =
 	2440,
 	2440,
 	2392,
+	2440,
 	1986,
 	2440,
 	2415,

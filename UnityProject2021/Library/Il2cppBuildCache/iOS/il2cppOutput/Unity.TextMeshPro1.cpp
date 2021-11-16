@@ -29107,7 +29107,7 @@ IL_001d:
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_4 = __this->get_m_TextComponent_27();
 		NullCheck(L_4);
 		float L_5;
-		L_5 = VirtFuncInvoker0< float >::Invoke(83 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_4);
+		L_5 = VirtFuncInvoker0< float >::Invoke(85 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_4);
 		RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 * L_6 = __this->get_m_TextViewport_23();
 		NullCheck(L_6);
 		Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878  L_7;
@@ -29215,7 +29215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TMP_InputField_GetScrollPositionRelativ
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_11 = __this->get_m_TextComponent_27();
 		NullCheck(L_11);
 		float L_12;
-		L_12 = VirtFuncInvoker0< float >::Invoke(83 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_11);
+		L_12 = VirtFuncInvoker0< float >::Invoke(85 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_11);
 		float L_13;
 		L_13 = Rect_get_height_m42FEF31015A269E6E2B7E6F62E72E5BF6602302A((Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878 *)(&V_0), /*hidden argument*/NULL);
 		// scrollPosition = (int)((scrollPosition * 1000) + 0.5f) / 1000.0f;
@@ -33619,7 +33619,7 @@ IL_014c:
 		String_t* L_48;
 		L_48 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_47, _stringLiteral22BE618ADF9DAFBF84F27DD4CA2D8D34F67B1103, /*hidden argument*/NULL);
 		NullCheck(L_46);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_46, L_48);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_46, L_48);
 		// if (m_IsDrivenByLayoutComponents)
 		bool L_49 = __this->get_m_IsDrivenByLayoutComponents_32();
 		if (!L_49)
@@ -33647,7 +33647,7 @@ IL_0175:
 		// m_TextComponent.ForceMeshUpdate();
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_52 = __this->get_m_TextComponent_27();
 		NullCheck(L_52);
-		VirtActionInvoker2< bool, bool >::Invoke(104 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_52, (bool)0, (bool)0);
+		VirtActionInvoker2< bool, bool >::Invoke(106 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_52, (bool)0, (bool)0);
 		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_53 = __this->get_m_TextComponent_27();
 		NullCheck(L_53);
@@ -33713,7 +33713,7 @@ IL_0175:
 		String_t* L_79;
 		L_79 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_78, _stringLiteral22BE618ADF9DAFBF84F27DD4CA2D8D34F67B1103, /*hidden argument*/NULL);
 		NullCheck(L_77);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_77, L_79);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_77, L_79);
 	}
 
 IL_0221:
@@ -33743,7 +33743,7 @@ IL_0236:
 		// m_TextComponent.ForceMeshUpdate();
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_83 = __this->get_m_TextComponent_27();
 		NullCheck(L_83);
-		VirtActionInvoker2< bool, bool >::Invoke(104 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_83, (bool)0, (bool)0);
+		VirtActionInvoker2< bool, bool >::Invoke(106 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_83, (bool)0, (bool)0);
 	}
 
 IL_024a:
@@ -33796,7 +33796,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_InputField_UpdateScrollbar_mCF527CB2
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_5 = __this->get_m_TextComponent_27();
 		NullCheck(L_5);
 		float L_6;
-		L_6 = VirtFuncInvoker0< float >::Invoke(83 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_5);
+		L_6 = VirtFuncInvoker0< float >::Invoke(85 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_5);
 		V_1 = ((float)((float)L_4/(float)L_6));
 		// m_VerticalScrollbar.size = size;
 		Scrollbar_tECAC7FD315210FC856A3EC60AE1847A66AAF6C28 * L_7 = __this->get_m_VerticalScrollbar_30();
@@ -33956,7 +33956,7 @@ IL_003f:
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_13 = __this->get_m_TextComponent_27();
 		NullCheck(L_13);
 		float L_14;
-		L_14 = VirtFuncInvoker0< float >::Invoke(83 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_13);
+		L_14 = VirtFuncInvoker0< float >::Invoke(85 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_13);
 		V_2 = L_14;
 		// switch (m_TextComponent.verticalAlignment)
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_15 = __this->get_m_TextComponent_27();
@@ -36234,7 +36234,7 @@ IL_000f:
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_42 = __this->get_m_TextComponent_27();
 		NullCheck(L_42);
 		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_43;
-		L_43 = VirtFuncInvoker0< Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  >::Invoke(71 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_42);
+		L_43 = VirtFuncInvoker0< Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  >::Invoke(73 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_42);
 		float L_44 = L_43.get_z_3();
 		int32_t L_45 = __this->get_m_CaretWidth_62();
 		V_6 = ((float)il2cpp_codegen_subtract((float)L_39, (float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)L_41, (float)L_44)), (float)((float)((float)L_45))))));
@@ -36295,7 +36295,7 @@ IL_0132:
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_59 = __this->get_m_TextComponent_27();
 		NullCheck(L_59);
 		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_60;
-		L_60 = VirtFuncInvoker0< Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  >::Invoke(71 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_59);
+		L_60 = VirtFuncInvoker0< Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  >::Invoke(73 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_59);
 		float L_61 = L_60.get_x_1();
 		float L_62;
 		L_62 = Rect_get_xMin_m02EA330BE4C4A07A3F18F50F257832E9E3C2B873((Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878 *)(&V_5), /*hidden argument*/NULL);
@@ -36450,7 +36450,7 @@ IL_0226:
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_110 = __this->get_m_TextComponent_27();
 		NullCheck(L_110);
 		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_111;
-		L_111 = VirtFuncInvoker0< Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  >::Invoke(71 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_110);
+		L_111 = VirtFuncInvoker0< Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  >::Invoke(73 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_110);
 		float L_112 = L_111.get_x_1();
 		V_11 = ((float)il2cpp_codegen_subtract((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)L_101, (float)L_103)), (float)L_105)), (float)L_109)), (float)L_112));
 		// float lastCharPosition = localPosition.x + textViewportLocalPosition.x + textComponentLocalPosition.x + m_TextComponent.textInfo.characterInfo[m_TextComponent.textInfo.characterCount - 1].origin + m_TextComponent.margin.z + m_CaretWidth;
@@ -36477,7 +36477,7 @@ IL_0226:
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_126 = __this->get_m_TextComponent_27();
 		NullCheck(L_126);
 		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_127;
-		L_127 = VirtFuncInvoker0< Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  >::Invoke(71 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_126);
+		L_127 = VirtFuncInvoker0< Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  >::Invoke(73 /* UnityEngine.Vector4 TMPro.TMP_Text::get_margin() */, L_126);
 		float L_128 = L_127.get_z_3();
 		int32_t L_129 = __this->get_m_CaretWidth_62();
 		V_12 = ((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)L_114, (float)L_116)), (float)L_118)), (float)L_125)), (float)L_128)), (float)((float)((float)L_129))));
@@ -39006,7 +39006,7 @@ IL_006c:
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_16 = __this->get_m_TextComponent_27();
 		NullCheck(L_16);
 		float L_17;
-		L_17 = VirtFuncInvoker0< float >::Invoke(82 /* System.Single TMPro.TMP_Text::get_preferredWidth() */, L_16);
+		L_17 = VirtFuncInvoker0< float >::Invoke(84 /* System.Single TMPro.TMP_Text::get_preferredWidth() */, L_16);
 		float L_18 = V_0;
 		return ((float)il2cpp_codegen_add((float)L_17, (float)L_18));
 	}
@@ -39114,7 +39114,7 @@ IL_006c:
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_16 = __this->get_m_TextComponent_27();
 		NullCheck(L_16);
 		float L_17;
-		L_17 = VirtFuncInvoker0< float >::Invoke(83 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_16);
+		L_17 = VirtFuncInvoker0< float >::Invoke(85 /* System.Single TMPro.TMP_Text::get_preferredHeight() */, L_16);
 		float L_18 = V_0;
 		return ((float)il2cpp_codegen_add((float)L_17, (float)L_18));
 	}

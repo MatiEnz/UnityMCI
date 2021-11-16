@@ -30303,7 +30303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072
 		// text.text = "Button";
 		TextMeshProUGUI_tCC5BE8A76E6E9AF92521A462E8D81ACFBA7C85F1 * L_18 = L_17;
 		NullCheck(L_18);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_18, _stringLiteral7DE03E5EBA0308517D1762F2C0DF3B9E2A2F1870);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_18, _stringLiteral7DE03E5EBA0308517D1762F2C0DF3B9E2A2F1870);
 		// text.alignment = TextAlignmentOptions.Center;
 		TextMeshProUGUI_tCC5BE8A76E6E9AF92521A462E8D81ACFBA7C85F1 * L_19 = L_18;
 		NullCheck(L_19);
@@ -30499,7 +30499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072
 		// text.text = "";
 		TextMeshProUGUI_tCC5BE8A76E6E9AF92521A462E8D81ACFBA7C85F1 * L_35 = V_5;
 		NullCheck(L_35);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_35, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_35, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		// text.enableWordWrapping = false;
 		TextMeshProUGUI_tCC5BE8A76E6E9AF92521A462E8D81ACFBA7C85F1 * L_36 = V_5;
 		NullCheck(L_36);
@@ -30524,7 +30524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072
 		// placeholder.text = "Enter text...";
 		TextMeshProUGUI_tCC5BE8A76E6E9AF92521A462E8D81ACFBA7C85F1 * L_42 = V_6;
 		NullCheck(L_42);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_42, _stringLiteralA818D784EEE0EEB6AB11F62A9BF9EF44CF6146AC);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_42, _stringLiteralA818D784EEE0EEB6AB11F62A9BF9EF44CF6146AC);
 		// placeholder.fontSize = 14;
 		TextMeshProUGUI_tCC5BE8A76E6E9AF92521A462E8D81ACFBA7C85F1 * L_43 = V_6;
 		NullCheck(L_43);
@@ -31034,7 +31034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072
 		// itemLabelText.text = "Option A";
 		TextMeshProUGUI_tCC5BE8A76E6E9AF92521A462E8D81ACFBA7C85F1 * L_112 = V_10;
 		NullCheck(L_112);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_112, _stringLiteral17AEAD6B86236368E44E9297467458F1158CAF04);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_112, _stringLiteral17AEAD6B86236368E44E9297467458F1158CAF04);
 		// dropdown.options.Add(new TMP_Dropdown.OptionData {text = "Option A" });
 		TMP_Dropdown_t3FD3826E105DA5CC167E721237E450A4BA855E63 * L_113 = L_110;
 		NullCheck(L_113);
@@ -32038,7 +32038,7 @@ IL_0042:
 		String_t* L_17;
 		L_17 = OptionData_get_text_mAC90B4C8618CFCF87429B78AB04C7ACCA7CF3B36_inline(L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_15, L_17);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_15, L_17);
 		goto IL_007d;
 	}
 
@@ -32047,7 +32047,7 @@ IL_006d:
 		// m_CaptionText.text = "";
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_18 = __this->get_m_CaptionText_21();
 		NullCheck(L_18);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_18, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_18, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 	}
 
 IL_007d:
@@ -34308,7 +34308,7 @@ IL_0088:
 		String_t* L_31;
 		L_31 = OptionData_get_text_mAC90B4C8618CFCF87429B78AB04C7ACCA7CF3B36_inline(L_30, /*hidden argument*/NULL);
 		NullCheck(L_29);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_29, L_31);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_29, L_31);
 	}
 
 IL_00a6:

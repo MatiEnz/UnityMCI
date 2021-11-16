@@ -15083,7 +15083,7 @@ IL_00a0:
 		// LoadDefaultSettings();
 		TMP_Text_LoadDefaultSettings_m604665D8B3D607EF5E442A0D4BDD0350683178D6(__this, /*hidden argument*/NULL);
 		// LoadFontAsset();
-		VirtActionInvoker0::Invoke(87 /* System.Void TMPro.TMP_Text::LoadFontAsset() */, __this);
+		VirtActionInvoker0::Invoke(89 /* System.Void TMPro.TMP_Text::LoadFontAsset() */, __this);
 		// if (m_TextProcessingArray == null)
 		UnicodeCharU5BU5D_tB233FC88865130D0B1EA18DA685C2AF41FB134F7* L_17 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_TextProcessingArray_197();
 		if (L_17)
@@ -15229,7 +15229,7 @@ IL_0018:
 		L_2 = TextMeshProUGUI_GetCanvas_m6D29B5A64A3F1C6C3497574B94697F0B2AFC37CC(__this, /*hidden argument*/NULL);
 		__this->set_m_canvas_270(L_2);
 		// SetActiveSubMeshes(true);
-		VirtActionInvoker1< bool >::Invoke(125 /* System.Void TMPro.TMP_Text::SetActiveSubMeshes(System.Boolean) */, __this, (bool)1);
+		VirtActionInvoker1< bool >::Invoke(127 /* System.Void TMPro.TMP_Text::SetActiveSubMeshes(System.Boolean) */, __this, (bool)1);
 		// GraphicRegistry.RegisterGraphicForCanvas(m_canvas, this);
 		Canvas_t2B7E56B7BDC287962E092755372E214ACB6393EA * L_3 = __this->get_m_canvas_270();
 		IL2CPP_RUNTIME_CLASS_INIT(GraphicRegistry_t3993D13217A68FC7F6FF5A74B3AD46BFD7DFA4B3_il2cpp_TypeInfo_var);
@@ -15250,13 +15250,13 @@ IL_0018:
 IL_0045:
 	{
 		// ComputeMarginSize();
-		VirtActionInvoker0::Invoke(117 /* System.Void TMPro.TMP_Text::ComputeMarginSize() */, __this);
+		VirtActionInvoker0::Invoke(119 /* System.Void TMPro.TMP_Text::ComputeMarginSize() */, __this);
 		// SetAllDirty();
 		VirtActionInvoker0::Invoke(26 /* System.Void UnityEngine.UI.Graphic::SetAllDirty() */, __this);
 		// RecalculateClipping();
-		VirtActionInvoker0::Invoke(61 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateClipping() */, __this);
+		VirtActionInvoker0::Invoke(63 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateClipping() */, __this);
 		// RecalculateMasking();
-		VirtActionInvoker0::Invoke(62 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateMasking() */, __this);
+		VirtActionInvoker0::Invoke(64 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateMasking() */, __this);
 		// }
 		return;
 	}
@@ -15319,15 +15319,15 @@ IL_0009:
 IL_003a:
 	{
 		// SetActiveSubMeshes(false);
-		VirtActionInvoker1< bool >::Invoke(125 /* System.Void TMPro.TMP_Text::SetActiveSubMeshes(System.Boolean) */, __this, (bool)0);
+		VirtActionInvoker1< bool >::Invoke(127 /* System.Void TMPro.TMP_Text::SetActiveSubMeshes(System.Boolean) */, __this, (bool)0);
 		// LayoutRebuilder.MarkLayoutForRebuild(m_rectTransform);
 		RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 * L_5 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_rectTransform_156();
 		IL2CPP_RUNTIME_CLASS_INIT(LayoutRebuilder_tE88B8B9EA50644E438123BDCE2BC2A3287E07585_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m1BDFA10259B85AEBD3A758B78EF4702BE014D1FE(L_5, /*hidden argument*/NULL);
 		// RecalculateClipping();
-		VirtActionInvoker0::Invoke(61 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateClipping() */, __this);
+		VirtActionInvoker0::Invoke(63 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateClipping() */, __this);
 		// RecalculateMasking();
-		VirtActionInvoker0::Invoke(62 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateMasking() */, __this);
+		VirtActionInvoker0::Invoke(64 /* System.Void UnityEngine.UI.MaskableGraphic::RecalculateMasking() */, __this);
 		// }
 		return;
 	}
@@ -15684,7 +15684,7 @@ IL_019b:
 		TMP_Text_GetSpecialCharacters_mBC8552268E1BAF2F95F0D221009B357F089076C1(__this, L_52, /*hidden argument*/NULL);
 		// m_padding = GetPaddingForMaterial();
 		float L_53;
-		L_53 = VirtFuncInvoker0< float >::Invoke(101 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
+		L_53 = VirtFuncInvoker0< float >::Invoke(103 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_padding_241(L_53);
 		// SetMaterialDirty();
 		VirtActionInvoker0::Invoke(29 /* System.Void UnityEngine.UI.Graphic::SetMaterialDirty() */, __this);
@@ -15904,7 +15904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_EnableMasking_m086C0840A
 		// m_fontMaterial = CreateMaterialInstance(m_sharedMaterial);
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_2 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_sharedMaterial_43();
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_3;
-		L_3 = VirtFuncInvoker1< Material_t8927C00353A72755313F046D0CE85178AE8218EE *, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(94 /* UnityEngine.Material TMPro.TMP_Text::CreateMaterialInstance(UnityEngine.Material) */, __this, L_2);
+		L_3 = VirtFuncInvoker1< Material_t8927C00353A72755313F046D0CE85178AE8218EE *, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(96 /* UnityEngine.Material TMPro.TMP_Text::CreateMaterialInstance(UnityEngine.Material) */, __this, L_2);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_fontMaterial_50(L_3);
 		// m_canvasRenderer.SetMaterial(m_fontMaterial, m_sharedMaterial.GetTexture(ShaderUtilities.ID_MainTex));
 		CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E * L_4 = __this->get_m_canvasRenderer_269();
@@ -16254,7 +16254,7 @@ IL_0026:
 		// m_fontMaterial = CreateMaterialInstance(mat);
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_6 = ___mat0;
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_7;
-		L_7 = VirtFuncInvoker1< Material_t8927C00353A72755313F046D0CE85178AE8218EE *, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(94 /* UnityEngine.Material TMPro.TMP_Text::CreateMaterialInstance(UnityEngine.Material) */, __this, L_6);
+		L_7 = VirtFuncInvoker1< Material_t8927C00353A72755313F046D0CE85178AE8218EE *, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(96 /* UnityEngine.Material TMPro.TMP_Text::CreateMaterialInstance(UnityEngine.Material) */, __this, L_6);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_fontMaterial_50(L_7);
 	}
 
@@ -16265,7 +16265,7 @@ IL_0033:
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_sharedMaterial_43(L_8);
 		// m_padding = GetPaddingForMaterial();
 		float L_9;
-		L_9 = VirtFuncInvoker0< float >::Invoke(101 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
+		L_9 = VirtFuncInvoker0< float >::Invoke(103 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_padding_241(L_9);
 		// m_ShouldRecalculateStencil = true;
 		((MaskableGraphic_t0DB59E37E3C8AD2F5A4FB7FB091630CB21370CCE *)__this)->set_m_ShouldRecalculateStencil_26((bool)1);
@@ -16412,7 +16412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetSharedMaterial_m93C5A
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_sharedMaterial_43(L_0);
 		// m_padding = GetPaddingForMaterial();
 		float L_1;
-		L_1 = VirtFuncInvoker0< float >::Invoke(101 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
+		L_1 = VirtFuncInvoker0< float >::Invoke(103 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_padding_241(L_1);
 		// SetMaterialDirty();
 		VirtActionInvoker0::Invoke(29 /* System.Void UnityEngine.UI.Graphic::SetMaterialDirty() */, __this);
@@ -16679,7 +16679,7 @@ IL_0041:
 		// m_padding = GetPaddingForMaterial(m_sharedMaterial);
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_36 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_sharedMaterial_43();
 		float L_37;
-		L_37 = VirtFuncInvoker1< float, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(102 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial(UnityEngine.Material) */, __this, L_36);
+		L_37 = VirtFuncInvoker1< float, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(104 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial(UnityEngine.Material) */, __this, L_36);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_padding_241(L_37);
 		// }
 		goto IL_011f;
@@ -16871,7 +16871,7 @@ IL_0055:
 		// m_fontMaterial = CreateMaterialInstance(m_sharedMaterial);
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_14 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_sharedMaterial_43();
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_15;
-		L_15 = VirtFuncInvoker1< Material_t8927C00353A72755313F046D0CE85178AE8218EE *, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(94 /* UnityEngine.Material TMPro.TMP_Text::CreateMaterialInstance(UnityEngine.Material) */, __this, L_14);
+		L_15 = VirtFuncInvoker1< Material_t8927C00353A72755313F046D0CE85178AE8218EE *, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(96 /* UnityEngine.Material TMPro.TMP_Text::CreateMaterialInstance(UnityEngine.Material) */, __this, L_14);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_fontMaterial_50(L_15);
 		// m_sharedMaterial = m_fontMaterial;
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_16 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_fontMaterial_50();
@@ -16905,7 +16905,7 @@ IL_00a2:
 		Material_SetFloat_mAC7DC962B356565CF6743E358C7A19D0322EA060(L_24, L_25, L_26, /*hidden argument*/NULL);
 		// m_padding = GetPaddingForMaterial();
 		float L_27;
-		L_27 = VirtFuncInvoker0< float >::Invoke(101 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
+		L_27 = VirtFuncInvoker0< float >::Invoke(103 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_padding_241(L_27);
 		// }
 		return;
@@ -16936,7 +16936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetFaceColor_m52F7B3BDAC
 		// m_fontMaterial = CreateMaterialInstance(m_sharedMaterial);
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_2 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_sharedMaterial_43();
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_3;
-		L_3 = VirtFuncInvoker1< Material_t8927C00353A72755313F046D0CE85178AE8218EE *, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(94 /* UnityEngine.Material TMPro.TMP_Text::CreateMaterialInstance(UnityEngine.Material) */, __this, L_2);
+		L_3 = VirtFuncInvoker1< Material_t8927C00353A72755313F046D0CE85178AE8218EE *, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(96 /* UnityEngine.Material TMPro.TMP_Text::CreateMaterialInstance(UnityEngine.Material) */, __this, L_2);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_fontMaterial_50(L_3);
 	}
 
@@ -16947,7 +16947,7 @@ IL_0020:
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_sharedMaterial_43(L_4);
 		// m_padding = GetPaddingForMaterial();
 		float L_5;
-		L_5 = VirtFuncInvoker0< float >::Invoke(101 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
+		L_5 = VirtFuncInvoker0< float >::Invoke(103 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_padding_241(L_5);
 		// m_sharedMaterial.SetColor(ShaderUtilities.ID_FaceColor, color);
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_6 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_sharedMaterial_43();
@@ -16987,7 +16987,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetOutlineColor_m61FA3B8
 		// m_fontMaterial = CreateMaterialInstance(m_sharedMaterial);
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_2 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_sharedMaterial_43();
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_3;
-		L_3 = VirtFuncInvoker1< Material_t8927C00353A72755313F046D0CE85178AE8218EE *, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(94 /* UnityEngine.Material TMPro.TMP_Text::CreateMaterialInstance(UnityEngine.Material) */, __this, L_2);
+		L_3 = VirtFuncInvoker1< Material_t8927C00353A72755313F046D0CE85178AE8218EE *, Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(96 /* UnityEngine.Material TMPro.TMP_Text::CreateMaterialInstance(UnityEngine.Material) */, __this, L_2);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_fontMaterial_50(L_3);
 	}
 
@@ -16998,7 +16998,7 @@ IL_0020:
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_sharedMaterial_43(L_4);
 		// m_padding = GetPaddingForMaterial();
 		float L_5;
-		L_5 = VirtFuncInvoker0< float >::Invoke(101 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
+		L_5 = VirtFuncInvoker0< float >::Invoke(103 /* System.Single TMPro.TMP_Text::GetPaddingForMaterial() */, __this);
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_padding_241(L_5);
 		// m_sharedMaterial.SetColor(ShaderUtilities.ID_OutlineColor, color);
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_6 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_sharedMaterial_43();
@@ -17741,11 +17741,11 @@ IL_0276:
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_72 = V_2;
 		String_t* L_73 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
 		NullCheck(L_72);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_72, L_73);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_72, L_73);
 		// linkedComponent.ClearMesh();
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_74 = V_2;
 		NullCheck(L_74);
-		VirtActionInvoker0::Invoke(127 /* System.Void TMPro.TMP_Text::ClearMesh() */, L_74);
+		VirtActionInvoker0::Invoke(129 /* System.Void TMPro.TMP_Text::ClearMesh() */, L_74);
 		// linkedComponent.textInfo.Clear();
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_75 = V_2;
 		NullCheck(L_75);
@@ -19563,7 +19563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_ComputeMarginSize_m318EB
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_PreviousPivotPosition_158(L_16);
 		// m_RectTransformCorners = GetTextContainerLocalCorners();
 		Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4* L_17;
-		L_17 = VirtFuncInvoker0< Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4* >::Invoke(103 /* UnityEngine.Vector3[] TMPro.TMP_Text::GetTextContainerLocalCorners() */, __this);
+		L_17 = VirtFuncInvoker0< Vector3U5BU5D_t5FB88EAA33E46838BDC2ABDAEA3E8727491CB9E4* >::Invoke(105 /* UnityEngine.Vector3[] TMPro.TMP_Text::GetTextContainerLocalCorners() */, __this);
 		__this->set_m_RectTransformCorners_268(L_17);
 	}
 
@@ -19689,7 +19689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_OnTransformParentChanged
 		L_0 = Graphic_get_canvas_mDB17EC66AF3FD40E8D368FC11C8F07319BB9D1B0(__this, /*hidden argument*/NULL);
 		__this->set_m_canvas_270(L_0);
 		// ComputeMarginSize();
-		VirtActionInvoker0::Invoke(117 /* System.Void TMPro.TMP_Text::ComputeMarginSize() */, __this);
+		VirtActionInvoker0::Invoke(119 /* System.Void TMPro.TMP_Text::ComputeMarginSize() */, __this);
 		// m_havePropertiesChanged = true;
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_havePropertiesChanged_153((bool)1);
 		// }
@@ -19856,7 +19856,7 @@ IL_0044:
 IL_0102:
 	{
 		// ComputeMarginSize();
-		VirtActionInvoker0::Invoke(117 /* System.Void TMPro.TMP_Text::ComputeMarginSize() */, __this);
+		VirtActionInvoker0::Invoke(119 /* System.Void TMPro.TMP_Text::ComputeMarginSize() */, __this);
 		// UpdateSubObjectPivot();
 		TextMeshProUGUI_UpdateSubObjectPivot_mEC87530D10A169CFDBBE663D62FB9979E7666FD1(__this, /*hidden argument*/NULL);
 		// SetVerticesDirty();
@@ -20072,7 +20072,7 @@ IL_0084:
 	}
 	{
 		// UpdateMeshPadding();
-		VirtActionInvoker0::Invoke(109 /* System.Void TMPro.TMP_Text::UpdateMeshPadding() */, __this);
+		VirtActionInvoker0::Invoke(111 /* System.Void TMPro.TMP_Text::UpdateMeshPadding() */, __this);
 	}
 
 IL_0092:
@@ -20129,7 +20129,7 @@ IL_00c2:
 IL_011c:
 	{
 		// GenerateTextMesh();
-		VirtActionInvoker0::Invoke(140 /* System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() */, __this);
+		VirtActionInvoker0::Invoke(142 /* System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() */, __this);
 		// m_AutoSizeIterationCount += 1;
 		int32_t L_23 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_AutoSizeIterationCount_83();
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_AutoSizeIterationCount_83(((int32_t)il2cpp_codegen_add((int32_t)L_23, (int32_t)1)));
@@ -20730,7 +20730,7 @@ IL_0054:
 IL_0078:
 	{
 		// ClearMesh();
-		VirtActionInvoker0::Invoke(127 /* System.Void TMPro.TMP_Text::ClearMesh() */, __this);
+		VirtActionInvoker0::Invoke(129 /* System.Void TMPro.TMP_Text::ClearMesh() */, __this);
 		// m_preferredWidth = 0;
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_preferredWidth_174((0.0f));
 		// m_preferredHeight = 0;
@@ -23923,9 +23923,9 @@ IL_1cbb:
 		// m_linkedTextComponent.text = text;
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_900 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		String_t* L_901;
-		L_901 = VirtFuncInvoker0< String_t* >::Invoke(63 /* System.String TMPro.TMP_Text::get_text() */, __this);
+		L_901 = VirtFuncInvoker0< String_t* >::Invoke(65 /* System.String TMPro.TMP_Text::get_text() */, __this);
 		NullCheck(L_900);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_900, L_901);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_900, L_901);
 		// m_linkedTextComponent.m_inputSource = m_inputSource;
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_902 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		int32_t L_903 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_inputSource_185();
@@ -23939,7 +23939,7 @@ IL_1cbb:
 		// m_linkedTextComponent.ForceMeshUpdate();
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_906 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		NullCheck(L_906);
-		VirtActionInvoker2< bool, bool >::Invoke(104 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_906, (bool)0, (bool)0);
+		VirtActionInvoker2< bool, bool >::Invoke(106 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_906, (bool)0, (bool)0);
 		// m_isTextTruncated = true;
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_isTextTruncated_119((bool)1);
 	}
@@ -24812,9 +24812,9 @@ IL_23f5:
 		// m_linkedTextComponent.text = text;
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_1085 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		String_t* L_1086;
-		L_1086 = VirtFuncInvoker0< String_t* >::Invoke(63 /* System.String TMPro.TMP_Text::get_text() */, __this);
+		L_1086 = VirtFuncInvoker0< String_t* >::Invoke(65 /* System.String TMPro.TMP_Text::get_text() */, __this);
 		NullCheck(L_1085);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1085, L_1086);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1085, L_1086);
 		// m_linkedTextComponent.m_inputSource = m_inputSource;
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_1087 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		int32_t L_1088 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_inputSource_185();
@@ -24828,7 +24828,7 @@ IL_23f5:
 		// m_linkedTextComponent.ForceMeshUpdate();
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_1091 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		NullCheck(L_1091);
-		VirtActionInvoker2< bool, bool >::Invoke(104 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_1091, (bool)0, (bool)0);
+		VirtActionInvoker2< bool, bool >::Invoke(106 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_1091, (bool)0, (bool)0);
 		// m_isTextTruncated = true;
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_isTextTruncated_119((bool)1);
 	}
@@ -25158,9 +25158,9 @@ IL_26dc:
 		// m_linkedTextComponent.text = text;
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_1155 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		String_t* L_1156;
-		L_1156 = VirtFuncInvoker0< String_t* >::Invoke(63 /* System.String TMPro.TMP_Text::get_text() */, __this);
+		L_1156 = VirtFuncInvoker0< String_t* >::Invoke(65 /* System.String TMPro.TMP_Text::get_text() */, __this);
 		NullCheck(L_1155);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1155, L_1156);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1155, L_1156);
 		// m_linkedTextComponent.m_inputSource = m_inputSource;
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_1157 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		int32_t L_1158 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_inputSource_185();
@@ -25174,7 +25174,7 @@ IL_26dc:
 		// m_linkedTextComponent.ForceMeshUpdate();
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_1161 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		NullCheck(L_1161);
-		VirtActionInvoker2< bool, bool >::Invoke(104 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_1161, (bool)0, (bool)0);
+		VirtActionInvoker2< bool, bool >::Invoke(106 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_1161, (bool)0, (bool)0);
 		// m_isTextTruncated = true;
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_isTextTruncated_119((bool)1);
 	}
@@ -25289,7 +25289,7 @@ IL_2802:
 		float L_1185 = V_6;
 		float L_1186 = V_7;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_1187 = V_18;
-		VirtActionInvoker3< float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(118 /* System.Void TMPro.TMP_Text::SaveGlyphVertexInfo(System.Single,System.Single,UnityEngine.Color32) */, __this, L_1185, L_1186, L_1187);
+		VirtActionInvoker3< float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(120 /* System.Void TMPro.TMP_Text::SaveGlyphVertexInfo(System.Single,System.Single,UnityEngine.Color32) */, __this, L_1185, L_1186, L_1187);
 		// }
 		goto IL_2829;
 	}
@@ -25306,7 +25306,7 @@ IL_2818:
 	{
 		// SaveSpriteVertexInfo(vertexColor);
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_1189 = V_18;
-		VirtActionInvoker1< Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(119 /* System.Void TMPro.TMP_Text::SaveSpriteVertexInfo(UnityEngine.Color32) */, __this, L_1189);
+		VirtActionInvoker1< Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(121 /* System.Void TMPro.TMP_Text::SaveSpriteVertexInfo(UnityEngine.Color32) */, __this, L_1189);
 	}
 
 IL_2829:
@@ -25464,9 +25464,9 @@ IL_2918:
 		// m_linkedTextComponent.text = text;
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_1219 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		String_t* L_1220;
-		L_1220 = VirtFuncInvoker0< String_t* >::Invoke(63 /* System.String TMPro.TMP_Text::get_text() */, __this);
+		L_1220 = VirtFuncInvoker0< String_t* >::Invoke(65 /* System.String TMPro.TMP_Text::get_text() */, __this);
 		NullCheck(L_1219);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1219, L_1220);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1219, L_1220);
 		// m_linkedTextComponent.m_inputSource = m_inputSource;
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_1221 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		int32_t L_1222 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_inputSource_185();
@@ -25480,7 +25480,7 @@ IL_2918:
 		// m_linkedTextComponent.ForceMeshUpdate();
 		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_1225 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_linkedTextComponent_117();
 		NullCheck(L_1225);
-		VirtActionInvoker2< bool, bool >::Invoke(104 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_1225, (bool)0, (bool)0);
+		VirtActionInvoker2< bool, bool >::Invoke(106 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_1225, (bool)0, (bool)0);
 		// m_isTextTruncated = true;
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_isTextTruncated_119((bool)1);
 	}
@@ -28033,7 +28033,7 @@ IL_3d09:
 IL_3d1f:
 	{
 		// ClearMesh();
-		VirtActionInvoker0::Invoke(127 /* System.Void TMPro.TMP_Text::ClearMesh() */, __this);
+		VirtActionInvoker0::Invoke(129 /* System.Void TMPro.TMP_Text::ClearMesh() */, __this);
 		// TMPro_EventManager.ON_TEXT_CHANGED(this);
 		IL2CPP_RUNTIME_CLASS_INIT(TMPro_EventManager_t8A07AD64AF1C174D621817FEA8D2CF0DA7065AA1_il2cpp_TypeInfo_var);
 		TMPro_EventManager_ON_TEXT_CHANGED_m196F05B2E99B22617705488778FA1474C411C771(__this, /*hidden argument*/NULL);
@@ -30678,7 +30678,7 @@ IL_58b1:
 		// FillCharacterVertexBuffers(i, vert_index_X4);
 		int32_t L_3068 = V_156;
 		int32_t L_3069 = V_39;
-		VirtActionInvoker2< int32_t, int32_t >::Invoke(120 /* System.Void TMPro.TMP_Text::FillCharacterVertexBuffers(System.Int32,System.Int32) */, __this, L_3068, L_3069);
+		VirtActionInvoker2< int32_t, int32_t >::Invoke(122 /* System.Void TMPro.TMP_Text::FillCharacterVertexBuffers(System.Int32,System.Int32) */, __this, L_3068, L_3069);
 		// }
 		goto IL_58d0;
 	}
@@ -30696,7 +30696,7 @@ IL_58c1:
 		// FillSpriteVertexBuffers(i, sprite_index_X4);
 		int32_t L_3071 = V_156;
 		int32_t L_3072 = V_40;
-		VirtActionInvoker2< int32_t, int32_t >::Invoke(122 /* System.Void TMPro.TMP_Text::FillSpriteVertexBuffers(System.Int32,System.Int32) */, __this, L_3071, L_3072);
+		VirtActionInvoker2< int32_t, int32_t >::Invoke(124 /* System.Void TMPro.TMP_Text::FillSpriteVertexBuffers(System.Int32,System.Int32) */, __this, L_3071, L_3072);
 	}
 
 IL_58d0:
@@ -31802,7 +31802,7 @@ IL_6189:
 		float L_3492 = V_59;
 		float L_3493 = V_56;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3494 = V_52;
-		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(123 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3488, L_3489, (int32_t*)(&V_34), L_3490, L_3491, L_3492, L_3493, L_3494);
+		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(125 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3488, L_3489, (int32_t*)(&V_34), L_3490, L_3491, L_3492, L_3493, L_3494);
 		// underlineMaxScale = 0;
 		V_59 = (0.0f);
 		// xScaleMax = 0;
@@ -31925,7 +31925,7 @@ IL_62cf:
 		float L_3532 = V_59;
 		float L_3533 = V_56;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3534 = V_52;
-		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(123 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3528, L_3529, (int32_t*)(&V_34), L_3530, L_3531, L_3532, L_3533, L_3534);
+		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(125 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3528, L_3529, (int32_t*)(&V_34), L_3530, L_3531, L_3532, L_3533, L_3534);
 		// underlineMaxScale = 0;
 		V_59 = (0.0f);
 		// xScaleMax = 0;
@@ -31983,7 +31983,7 @@ IL_6302:
 		float L_3552 = V_59;
 		float L_3553 = V_56;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3554 = V_52;
-		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(123 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3548, L_3549, (int32_t*)(&V_34), L_3550, L_3551, L_3552, L_3553, L_3554);
+		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(125 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3548, L_3549, (int32_t*)(&V_34), L_3550, L_3551, L_3552, L_3553, L_3554);
 		// underlineMaxScale = 0;
 		V_59 = (0.0f);
 		// xScaleMax = 0;
@@ -32057,7 +32057,7 @@ IL_6384:
 		float L_3579 = V_59;
 		float L_3580 = V_56;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3581 = V_52;
-		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(123 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3575, L_3576, (int32_t*)(&V_34), L_3577, L_3578, L_3579, L_3580, L_3581);
+		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(125 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3575, L_3576, (int32_t*)(&V_34), L_3577, L_3578, L_3579, L_3580, L_3581);
 		// underlineMaxScale = 0;
 		V_59 = (0.0f);
 		// xScaleMax = 0;
@@ -32108,7 +32108,7 @@ IL_6432:
 		float L_3598 = V_59;
 		float L_3599 = V_56;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3600 = V_52;
-		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(123 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3594, L_3595, (int32_t*)(&V_34), L_3596, L_3597, L_3598, L_3599, L_3600);
+		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(125 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3594, L_3595, (int32_t*)(&V_34), L_3596, L_3597, L_3598, L_3599, L_3600);
 		// underlineMaxScale = 0;
 		V_59 = (0.0f);
 		// xScaleMax = 0;
@@ -32355,7 +32355,7 @@ IL_6632:
 		float L_3680 = V_63;
 		float L_3681 = V_55;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3682 = V_53;
-		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(123 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3676, L_3677, (int32_t*)(&V_34), L_3678, L_3679, L_3680, L_3681, L_3682);
+		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(125 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3676, L_3677, (int32_t*)(&V_34), L_3678, L_3679, L_3680, L_3681, L_3682);
 		// }
 		goto IL_6a00;
 	}
@@ -32457,7 +32457,7 @@ IL_675e:
 		float L_3718 = V_63;
 		float L_3719 = V_55;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3720 = V_53;
-		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(123 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3714, L_3715, (int32_t*)(&V_34), L_3716, L_3717, L_3718, L_3719, L_3720);
+		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(125 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3714, L_3715, (int32_t*)(&V_34), L_3716, L_3717, L_3718, L_3719, L_3720);
 		// }
 		goto IL_6a00;
 	}
@@ -32579,7 +32579,7 @@ IL_6878:
 		float L_3767 = V_63;
 		float L_3768 = V_55;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3769 = V_53;
-		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(123 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3763, L_3764, (int32_t*)(&V_34), L_3765, L_3766, L_3767, L_3768, L_3769);
+		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(125 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3763, L_3764, (int32_t*)(&V_34), L_3765, L_3766, L_3767, L_3768, L_3769);
 		// }
 		goto IL_6a00;
 	}
@@ -32646,7 +32646,7 @@ IL_6893:
 		float L_3794 = V_63;
 		float L_3795 = V_55;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3796 = V_53;
-		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(123 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3790, L_3791, (int32_t*)(&V_34), L_3792, L_3793, L_3794, L_3795, L_3796);
+		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(125 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3790, L_3791, (int32_t*)(&V_34), L_3792, L_3793, L_3794, L_3795, L_3796);
 		// }
 		goto IL_6a00;
 	}
@@ -32695,7 +32695,7 @@ IL_6928:
 		float L_3814 = V_63;
 		float L_3815 = V_55;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3816 = V_53;
-		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(123 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3810, L_3811, (int32_t*)(&V_34), L_3812, L_3813, L_3814, L_3815, L_3816);
+		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(125 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3810, L_3811, (int32_t*)(&V_34), L_3812, L_3813, L_3814, L_3815, L_3816);
 		// }
 		goto IL_6a00;
 	}
@@ -32737,7 +32737,7 @@ IL_699a:
 		float L_3833 = V_63;
 		float L_3834 = V_55;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3835 = V_53;
-		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(123 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3829, L_3830, (int32_t*)(&V_34), L_3831, L_3832, L_3833, L_3834, L_3835);
+		VirtActionInvoker8< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, float, float, float, float, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(125 /* System.Void TMPro.TMP_Text::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32) */, __this, L_3829, L_3830, (int32_t*)(&V_34), L_3831, L_3832, L_3833, L_3834, L_3835);
 	}
 
 IL_6a00:
@@ -32964,7 +32964,7 @@ IL_6ade:
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_3902 = V_17;
 		HighlightState_t52CE27A1187034A1037ABC13A70BAEE4AC3B5759  L_3903 = V_54;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3904 = L_3903.get_color_0();
-		VirtActionInvoker4< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(124 /* System.Void TMPro.TMP_Text::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32) */, __this, L_3901, L_3902, (int32_t*)(&V_34), L_3904);
+		VirtActionInvoker4< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(126 /* System.Void TMPro.TMP_Text::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32) */, __this, L_3901, L_3902, (int32_t*)(&V_34), L_3904);
 		// beginHighlight = true;
 		V_15 = (bool)1;
 		// highlight_start = new Vector2(highlight_end.x, currentCharacter.descender - currentState.padding.bottom);
@@ -33089,7 +33089,7 @@ IL_6ca9:
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_3960 = V_17;
 		HighlightState_t52CE27A1187034A1037ABC13A70BAEE4AC3B5759  L_3961 = V_54;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3962 = L_3961.get_color_0();
-		VirtActionInvoker4< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(124 /* System.Void TMPro.TMP_Text::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32) */, __this, L_3959, L_3960, (int32_t*)(&V_34), L_3962);
+		VirtActionInvoker4< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(126 /* System.Void TMPro.TMP_Text::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32) */, __this, L_3959, L_3960, (int32_t*)(&V_34), L_3962);
 		// }
 		goto IL_6d3a;
 	}
@@ -33131,7 +33131,7 @@ IL_6ce8:
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_3971 = V_17;
 		HighlightState_t52CE27A1187034A1037ABC13A70BAEE4AC3B5759  L_3972 = V_54;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3973 = L_3972.get_color_0();
-		VirtActionInvoker4< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(124 /* System.Void TMPro.TMP_Text::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32) */, __this, L_3970, L_3971, (int32_t*)(&V_34), L_3973);
+		VirtActionInvoker4< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(126 /* System.Void TMPro.TMP_Text::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32) */, __this, L_3970, L_3971, (int32_t*)(&V_34), L_3973);
 		// }
 		goto IL_6d3a;
 	}
@@ -33160,7 +33160,7 @@ IL_6d00:
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_3977 = V_17;
 		HighlightState_t52CE27A1187034A1037ABC13A70BAEE4AC3B5759  L_3978 = V_54;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3979 = L_3978.get_color_0();
-		VirtActionInvoker4< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(124 /* System.Void TMPro.TMP_Text::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32) */, __this, L_3976, L_3977, (int32_t*)(&V_34), L_3979);
+		VirtActionInvoker4< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(126 /* System.Void TMPro.TMP_Text::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32) */, __this, L_3976, L_3977, (int32_t*)(&V_34), L_3979);
 		// }
 		goto IL_6d3a;
 	}
@@ -33182,7 +33182,7 @@ IL_6d20:
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_3982 = V_17;
 		HighlightState_t52CE27A1187034A1037ABC13A70BAEE4AC3B5759  L_3983 = V_54;
 		Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  L_3984 = L_3983.get_color_0();
-		VirtActionInvoker4< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(124 /* System.Void TMPro.TMP_Text::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32) */, __this, L_3981, L_3982, (int32_t*)(&V_34), L_3984);
+		VirtActionInvoker4< Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , int32_t*, Color32_tDB54A78627878A7D2DE42BB028D64306A18E858D  >::Invoke(126 /* System.Void TMPro.TMP_Text::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32) */, __this, L_3981, L_3982, (int32_t*)(&V_34), L_3984);
 	}
 
 IL_6d3a:
@@ -34135,7 +34135,7 @@ IL_0035:
 		L_10 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(L_9, /*hidden argument*/NULL);
 		// Bounds compoundBounds = GetCompoundBounds();
 		Bounds_t0F1F36D4F7AF49524B3C2A2259594412A3D3AE37  L_11;
-		L_11 = VirtFuncInvoker0< Bounds_t0F1F36D4F7AF49524B3C2A2259594412A3D3AE37  >::Invoke(114 /* UnityEngine.Bounds TMPro.TMP_Text::GetCompoundBounds() */, __this);
+		L_11 = VirtFuncInvoker0< Bounds_t0F1F36D4F7AF49524B3C2A2259594412A3D3AE37  >::Invoke(116 /* UnityEngine.Bounds TMPro.TMP_Text::GetCompoundBounds() */, __this);
 		V_0 = L_11;
 		// Vector2 position =  rootCanvasTransform.InverseTransformPoint(m_rectTransform.position);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_12 = L_10;
@@ -35212,7 +35212,7 @@ IL_001d:
 	{
 		// Rect rect = GetCanvasSpaceClippingRect();
 		Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878  L_3;
-		L_3 = VirtFuncInvoker0< Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878  >::Invoke(115 /* UnityEngine.Rect TMPro.TMP_Text::GetCanvasSpaceClippingRect() */, __this);
+		L_3 = VirtFuncInvoker0< Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878  >::Invoke(117 /* UnityEngine.Rect TMPro.TMP_Text::GetCanvasSpaceClippingRect() */, __this);
 		V_0 = L_3;
 		// if (rect.width == 0 || rect.height == 0)
 		float L_4;
@@ -35361,7 +35361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateCulling_m437350504
 	{
 		// Rect rect = GetCanvasSpaceClippingRect();
 		Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878  L_0;
-		L_0 = VirtFuncInvoker0< Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878  >::Invoke(115 /* UnityEngine.Rect TMPro.TMP_Text::GetCanvasSpaceClippingRect() */, __this);
+		L_0 = VirtFuncInvoker0< Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878  >::Invoke(117 /* UnityEngine.Rect TMPro.TMP_Text::GetCanvasSpaceClippingRect() */, __this);
 		V_0 = L_0;
 		// if (rect.width == 0 || rect.height == 0)
 		float L_1;
@@ -35758,11 +35758,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_TextInfo_t33ACB74FB814F588497640C86976E5D
 		// SetArraySizes(m_TextProcessingArray);
 		UnicodeCharU5BU5D_tB233FC88865130D0B1EA18DA685C2AF41FB134F7* L_1 = ((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->get_m_TextProcessingArray_197();
 		int32_t L_2;
-		L_2 = VirtFuncInvoker1< int32_t, UnicodeCharU5BU5D_tB233FC88865130D0B1EA18DA685C2AF41FB134F7* >::Invoke(112 /* System.Int32 TMPro.TMP_Text::SetArraySizes(TMPro.TMP_Text/UnicodeChar[]) */, __this, L_1);
+		L_2 = VirtFuncInvoker1< int32_t, UnicodeCharU5BU5D_tB233FC88865130D0B1EA18DA685C2AF41FB134F7* >::Invoke(114 /* System.Int32 TMPro.TMP_Text::SetArraySizes(TMPro.TMP_Text/UnicodeChar[]) */, __this, L_1);
 		// m_renderMode = TextRenderFlags.DontRender;
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_renderMode_135(0);
 		// ComputeMarginSize();
-		VirtActionInvoker0::Invoke(117 /* System.Void TMPro.TMP_Text::ComputeMarginSize() */, __this);
+		VirtActionInvoker0::Invoke(119 /* System.Void TMPro.TMP_Text::ComputeMarginSize() */, __this);
 		// if (m_canvas == null) m_canvas = this.canvas;
 		Canvas_t2B7E56B7BDC287962E092755372E214ACB6393EA * L_3 = __this->get_m_canvas_270();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
@@ -35783,7 +35783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_TextInfo_t33ACB74FB814F588497640C86976E5D
 IL_003c:
 	{
 		// GenerateTextMesh();
-		VirtActionInvoker0::Invoke(140 /* System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() */, __this);
+		VirtActionInvoker0::Invoke(142 /* System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() */, __this);
 		// m_renderMode = TextRenderFlags.Render;
 		((TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 *)__this)->set_m_renderMode_135(((int32_t)255));
 		// return this.textInfo;
@@ -36345,7 +36345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateFontAsset_mFB3389D
 {
 	{
 		// LoadFontAsset();
-		VirtActionInvoker0::Invoke(87 /* System.Void TMPro.TMP_Text::LoadFontAsset() */, __this);
+		VirtActionInvoker0::Invoke(89 /* System.Void TMPro.TMP_Text::LoadFontAsset() */, __this);
 		// }
 		return;
 	}
