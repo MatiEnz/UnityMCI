@@ -632,7 +632,6 @@ MonoBehaviour:
   speed_max: 0.2
   speed: 0
   health: 100
-  virusAnimator: {fileID: 0}
 --- !u!198 &8803913172267218000
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -5461,7 +5460,7 @@ ConstantForce:
   m_GameObject: {fileID: 6184603367023247375}
   m_Enabled: 1
   m_Force: {x: 0, y: 0, z: 0}
-  m_RelativeForce: {x: 0, y: 0, z: 0.025}
+  m_RelativeForce: {x: 0, y: 0, z: 0.01}
   m_Torque: {x: 0, y: 0, z: 0}
   m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &6261789468938192845

@@ -31,6 +31,8 @@ public class VirusLogic : MonoBehaviour
         if (other.gameObject.tag == "Finish")
         {
                Global.count = Global.count+1;
+               GetComponent<Rigidbody>().velocity = Vector3.zero;
+               virusAnimator.SetTrigger("finish"); 
                Debug.Log("Ouch!"); 
                StartCoroutine(Wait());      
         }

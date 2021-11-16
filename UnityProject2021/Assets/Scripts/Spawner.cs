@@ -14,14 +14,15 @@ using UnityEngine;
  private Vector3 spawnPosition;
  [SerializeField] private bool spawnInLine = false;
 
- void Update(){
+ void Update()
+  {
  
- spawntime_countdown -= Time.deltaTime;
+  spawntime_countdown -= Time.deltaTime;
  
- if (spawntime_countdown <= 0.0f)
- {
-    timerEnded();
- }
+  if (spawntime_countdown <= 0.0f)
+    {
+      timerEnded();
+    }
  
  }
  
@@ -37,7 +38,7 @@ using UnityEngine;
     else
     {
       spawnX = Random.Range(-1.5f,1.5f);
-      spawnY = Random.Range(0.1f,0.5f);
+      spawnY = Random.Range(0.1f,0.6f);
       spawnZ = Random.Range(2.0f,2.5f);
       spawnPosition = transform.TransformPoint(spawnX,spawnY,spawnZ);
     }
