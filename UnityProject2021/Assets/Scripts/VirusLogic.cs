@@ -12,11 +12,13 @@ public class VirusLogic : MonoBehaviour
      public float speed_max = 0.2f;
      [SerializeField] private float speed;
      [SerializeField] private float health = 100;
+     private Animator virusAnimator;
      private ParticleSystem ps;
      void Start()
      {
         speed = Random.Range(speed_min,speed_max);
         Instantiate(spawnEffect, transform.position, Quaternion.identity);
+        virusAnimator = GetComponentInChildren<Animator>(); 
      }
      void Update()
     {
@@ -35,30 +37,40 @@ public class VirusLogic : MonoBehaviour
 
         if (other.gameObject.tag == "Needle")
         {
- 
+
                Destroy(other.gameObject);
+               Debug.Log("Animate!"); 
                GetComponent<Rigidbody>().AddForce(transform.forward * -5f);
                Instantiate(explosionEffect, other.gameObject.transform.position, Quaternion.identity);
-               speed = speed - 0.033f;
                health = health - 34;
 
             if(health <= 0)
             {
                 StartCoroutine(Wait());
-            }      
+
+                virusAnimator.SetBool("dead",true);  
+            } 
+            else
+            {
+                virusAnimator.SetTrigger("hit"); 
+            }
+              
         }
     }
 
     IEnumerator Wait()
     {   
+        GetComponent<SphereCollider>().enabled = false;
+        yield return new WaitForSeconds(1);
         foreach (MeshRenderer component in gameObject.GetComponentsInChildren<MeshRenderer>())
             {
                 component.enabled = false;
             }
-        GetComponent<SphereCollider>().enabled = false;
         ps = GetComponent<ParticleSystem>();
         ps.Stop();
-	    yield return new WaitForSeconds(5);
+	    yield return new WaitForSeconds(4);
         Destroy(movedObject);
     }
+
+    
 }

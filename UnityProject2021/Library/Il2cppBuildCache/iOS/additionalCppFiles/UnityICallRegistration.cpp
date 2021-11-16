@@ -72,18 +72,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility
 
-	//Start Registrations for type : UnityEngine.Animation
-
-		//System.Int32 UnityEngine.Animation::GetStateCount()
-		void Register_UnityEngine_Animation_GetStateCount();
-		Register_UnityEngine_Animation_GetStateCount();
-
-		//UnityEngine.AnimationState UnityEngine.Animation::GetStateAtIndex(System.Int32)
-		void Register_UnityEngine_Animation_GetStateAtIndex();
-		Register_UnityEngine_Animation_GetStateAtIndex();
-
-	//End Registrations for type : UnityEngine.Animation
-
 	//Start Registrations for type : UnityEngine.AnimationCurve
 
 		//System.Boolean UnityEngine.AnimationCurve::Internal_Equals(System.IntPtr)
@@ -109,6 +97,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Animator::ResetTriggerString(System.String)
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
+
+		//System.Void UnityEngine.Animator::SetBoolString(System.String,System.Boolean)
+		void Register_UnityEngine_Animator_SetBoolString();
+		Register_UnityEngine_Animator_SetBoolString();
 
 		//System.Void UnityEngine.Animator::SetTriggerString(System.String)
 		void Register_UnityEngine_Animator_SetTriggerString();

@@ -80,11 +80,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
-      Script: {instanceID: 0}
-    - Class: 111
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1638}
@@ -873,7 +875,13 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AnimationTest
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/lastOneToday
+  playerPath: D:/app
