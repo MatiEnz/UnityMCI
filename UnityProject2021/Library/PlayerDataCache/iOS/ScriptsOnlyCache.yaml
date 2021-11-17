@@ -902,4 +902,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/lastOneToday
+  playerPath: D:/appFix
