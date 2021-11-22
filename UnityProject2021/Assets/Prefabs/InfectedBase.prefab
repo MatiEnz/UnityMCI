@@ -625,7 +625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movedObject: {fileID: 6184603367023247375}
-  targetObject: {fileID: 7438040948625497719, guid: ef2719c7737b23c4f856e9e3665c60aa, type: 3}
+  targetObject: {fileID: 1541978780723117400, guid: ae6b687706a86504f9420c0cebf25db6, type: 3}
   explosionEffect: {fileID: 2995156515252662713, guid: 8f11d1b09575d7f45bc7d6459f8f87eb, type: 3}
   spawnEffect: {fileID: 2202473845563657756, guid: 9bb90f5d347331c45bd61565d05f6df7, type: 3}
   speed_min: 0.1

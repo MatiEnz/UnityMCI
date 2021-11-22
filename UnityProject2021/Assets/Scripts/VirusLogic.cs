@@ -24,7 +24,8 @@ public class VirusLogic : MonoBehaviour
     {
          float step = speed * Time.deltaTime;
          //transform.position = Vector3.MoveTowards(transform.position, Placer.newOrigin.position, step);
-         transform.LookAt(Placer.newOrigin.position);
+         transform.LookAt(Placer.newOrigin.position + (Placer.newOrigin.up * 0.15f));
+         //transform.LookAt(targetObject.transform.position);        
      }
     void OnTriggerEnter(Collider other)
     {

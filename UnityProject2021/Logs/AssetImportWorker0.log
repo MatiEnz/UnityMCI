@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 22000.318; Version 2009; 64bit' Language: 'en' Physical Memory: 32683 MB
+OS: 'Windows 10 Pro; OS build 22000.318; Version 2009; 64bit' Language: 'en' Physical Memory: 15741 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65179
+59866
 Successfully changed project path to: C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021
 C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 54.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -27,45 +27,45 @@ Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
     Vendor:   
-    VRAM:     8079 MB
+    VRAM:     5980 MB
     Driver:   30.0.14.9649
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001476 seconds.
+Registered in 0.001241 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.730 seconds
+- Completed reload, in  1.615 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1730ms)
+	ReloadAssembly (1615ms)
 		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (382ms)
+		EndReloadAssembly (401ms)
 			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (129ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (139ms)
+			SetupLoadedEditorAssemblies (159ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (32ms)
+				RefreshPlugins (52ms)
 				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadAttributes (68ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,111 +73,111 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004424 seconds.
+Registered in 0.003977 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001926B5DE010 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file data-00000222EF39F030 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B7730D0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000222F50FFFB0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000192715AE010 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000222EF748410 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B74CD70 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000222EF39F030 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001927135D830 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000222EF341960 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B77D650 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-00000222F4EF8040 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001927135D830 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000222EF49D3E0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926FD76020 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000222F3F34020 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B56CFF0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file data-00000222F50C7030 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926FDA4230 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000222F3F62230 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019271368640 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file data-00000222EF34A370 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001927156B310 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-00000222EE764300 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B74CD70 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000222EF39F030 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000192702AC020 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000222F4207020 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019270EAECA0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000222F4EF8040 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926FF54020 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000222F425B020 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001927113F0C0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-00000222EF464060 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B811200 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-00000222EF4A0EB0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001927153C050 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-00000222F4EF8040 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B826F90 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-00000222F4F371B0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926FF54020 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000222F425B020 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B813970 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file data-00000222EF6B6C30 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001927123E030 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-00000222EF6B6C30 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B813970 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-00000222EF6B6C30 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B6E6DA0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000222F3BF9C20 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B6E6DA0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file data-00000222F38FFC90 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926FF41450 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file data-00000222F4248440 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001927101CF90 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-00000222F4D1EEE0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001926B6E6DA0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file data-00000222F3BF9C20 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
+- Completed reload, in  1.047 seconds
 Domain Reload Profiling:
-	ReloadAssembly (956ms)
+	ReloadAssembly (1048ms)
 		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (776ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (874ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (291ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (349ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (32ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (170ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (188ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.0 MB.
-System memory in use after: 95.1 MB.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.0 MB.
+System memory in use after: 147.2 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2336.
-Total: 3.473800 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.051700 ms MarkObjects: 3.118300 ms  DeleteObjects: 0.102200 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3594.
+Total: 3.659000 ms (FindLiveObjects: 0.296900 ms CreateObjectMapping: 0.097900 ms MarkObjects: 3.161600 ms  DeleteObjects: 0.101200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -191,581 +191,117 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Textures/glass.png
-  artifactKey: Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass.png using Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bbb14819b57e456a55d26608081ff7') in 0.052170 seconds 
-  Import took 0.054737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.606768 seconds.
-  path: Assets/Textures/glass.png
-  artifactKey: Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass.png using Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708667221a4ae41e1ea2e632b5ba8c10') in 0.104129 seconds 
-  Import took 0.106886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.545722 seconds.
-  path: Assets/Materials/Cell Membrane.mat
-  artifactKey: Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cell Membrane.mat using Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b07235be231475092e69294a334354') in 0.053886 seconds 
-  Import took 0.056643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.558637 seconds.
-  path: Assets/Materials/Cell Membrane.mat
-  artifactKey: Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cell Membrane.mat using Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5671bfce296c0525b00b057b8e2392') in 0.072746 seconds 
-  Import took 0.075643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.377558 seconds.
-  path: Assets/Textures/glass.png
-  artifactKey: Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass.png using Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26a85df91dfe3a8be446ae16e1ae7fc') in 0.017785 seconds 
-  Import took 0.021222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.945399 seconds.
-  path: Assets/Textures/glass.png
-  artifactKey: Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass.png using Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e2f5db88a695e1af2fbada671889ce') in 0.012501 seconds 
-  Import took 0.015305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.598712 seconds.
-  path: Assets/Textures/glass.png
-  artifactKey: Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass.png using Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92545a13021a6b09260d04da6f96f836') in 0.018875 seconds 
-  Import took 0.021667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.385850 seconds.
-  path: Assets/Textures/glass.png
-  artifactKey: Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass.png using Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b87099e15988b08474d9f1ae98011f') in 0.011348 seconds 
-  Import took 0.014236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.063654 seconds.
-  path: Assets/Textures/glass.png
-  artifactKey: Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass.png using Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff99b5d484a49bc53b5fdd1d56b0690') in 0.010778 seconds 
-  Import took 0.013678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 311.192938 seconds.
-  path: Assets/Shader
-  artifactKey: Guid(265f608e18a61794e959f60f9c9b18c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader using Guid(265f608e18a61794e959f60f9c9b18c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324941554e26ad30b545a4c45ebc8e11') in 0.002202 seconds 
-  Import took 0.004985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.699539 seconds.
-  path: Assets/Shader/NewSurfaceShader.shader
-  artifactKey: Guid(c7b7b7f21d88a264db7259543d7f3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/NewSurfaceShader.shader using Guid(c7b7b7f21d88a264db7259543d7f3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17785212d237d02f54e4a295fd1afbf') in 0.014539 seconds 
-  Import took 0.017781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1843.771030 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(417e05963a6ad7a4f93c710db0cd1f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(417e05963a6ad7a4f93c710db0cd1f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa89c225102039b51c6296935c818580') in 0.002639 seconds 
-  Import took 0.005764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1898.856390 seconds.
-  path: Assets/Textures/Worley.jpg
-  artifactKey: Guid(a473738e5e1c4cf4f93687ca5c241f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Worley.jpg using Guid(a473738e5e1c4cf4f93687ca5c241f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9781e99d70c77db5ab4a6c552f7f6248') in 0.074197 seconds 
-  Import took 0.077275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.086656 seconds.
-  path: Assets/Textures/Perlin.jpg
-  artifactKey: Guid(8df71c28558f23e4ca4ffc75114e499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Perlin.jpg using Guid(8df71c28558f23e4ca4ffc75114e499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4802e360ed3406d3456f7c56ad2045cd') in 0.013691 seconds 
-  Import took 0.016580 seconds .
+  path: Assets/Prefabs/Cell Base.prefab
+  artifactKey: Guid(ae6b687706a86504f9420c0cebf25db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cell Base.prefab using Guid(ae6b687706a86504f9420c0cebf25db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5caa7a7d9366d5adb3ceb3f745d926') in 0.105616 seconds 
+  Import took 0.110454 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009173 seconds.
+Registered in 0.003373 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000222EF31F340 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222EF9B3010 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F5BBF020 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222EF31F340 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F3977050 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F4EF8040 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F3907CA0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F52E1010 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F9545120 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222EF774B20 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222EF22EAF0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222FA6BD5B0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222EF31F340 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222FAC9E7A0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222EF319010 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222EF4AE440 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222EF464060 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F6F82E20 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222EF54D820 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F485D040 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F3E30010 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F447E410 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F7DBB010 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F447E410 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F3907CA0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F3907CA0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F8A00B90 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F3B81B00 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000222F3907CA0 doesn't match image C:\Users\matie\OneDrive\Dokumente\GitHub\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
+- Completed reload, in  0.939 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1053ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (940ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (323ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2654 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.5 MB.
-System memory in use after: 119.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3176.
-Total: 4.569800 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.078900 ms MarkObjects: 3.770700 ms  DeleteObjects: 0.352500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 612.674358 seconds.
-  path: Assets/Textures/Perlin.jpg
-  artifactKey: Guid(8df71c28558f23e4ca4ffc75114e499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Perlin.jpg using Guid(8df71c28558f23e4ca4ffc75114e499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dc0b5adb46c52ed9879af185932f9e') in 0.035445 seconds 
-  Import took 0.039350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.859895 seconds.
-  path: Assets/Shader/Membrane Surface.shadergraph
-  artifactKey: Guid(32c26c081486d4044aa577efdcb713d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Membrane Surface.shadergraph using Guid(32c26c081486d4044aa577efdcb713d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcfd4f3bb7c49a98a401a7acfef12f4') in 0.008650 seconds 
-  Import took 0.012522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 978.776183 seconds.
-  path: Assets/Textures/glass.png
-  artifactKey: Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass.png using Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38890cc9b7b635c682957490e402620') in 0.011311 seconds 
-  Import took 0.015319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.055645 seconds.
-  path: Assets/Textures/glass.png
-  artifactKey: Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass.png using Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5627ada4bac7a9a666abcd96a6f2c06') in 0.010869 seconds 
-  Import took 0.014598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.052705 seconds.
-  path: Assets/Textures/glass.png
-  artifactKey: Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass.png using Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e2d188d6c50c9ed2d75311ce9ac537') in 0.010805 seconds 
-  Import took 0.014689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.669891 seconds.
-  path: Assets/Materials/Cell Membrane.mat
-  artifactKey: Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cell Membrane.mat using Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d17b098d3a9ecef4d0eaa3a20710db9') in 0.199197 seconds 
-  Import took 0.202983 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013963 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1107ms)
-		BeginReloadAssembly (118ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (927ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (332ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
-Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
-Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 142.4 MB.
-
-Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3587.
-Total: 5.963900 ms (FindLiveObjects: 0.344100 ms CreateObjectMapping: 0.407000 ms MarkObjects: 3.475400 ms  DeleteObjects: 1.735800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 590.085976 seconds.
-  path: Assets/Materials/Cell Membrane.mat
-  artifactKey: Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cell Membrane.mat using Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bf6fd80366f4503619c5b70f96d0b1') in 0.173909 seconds 
-  Import took 0.178475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.193398 seconds.
-  path: Assets/Textures/glass.png
-  artifactKey: Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass.png using Guid(d9561fb2c62c015458c879c731326c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f141ca4702f0fdb93e1a435567d860f7') in 0.013345 seconds 
-  Import took 0.018092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Textures/glass2.jpg
-  artifactKey: Guid(6f28e310f5bdc7d468dbd66397b495d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/glass2.jpg using Guid(6f28e310f5bdc7d468dbd66397b495d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777798bb64c9ebbc2c69c3496ebb8af5') in 0.009458 seconds 
-  Import took 0.014171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 314.932122 seconds.
-  path: Assets/Materials/Cell Membrane.mat
-  artifactKey: Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cell Membrane.mat using Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c7fb204df93503323c04f62c18c904') in 0.010520 seconds 
-  Import took 0.015310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.297495 seconds.
-  path: Assets/Shader/Shader Material.mat
-  artifactKey: Guid(e43388c2acb240145a78de7004f7ddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Shader Material.mat using Guid(e43388c2acb240145a78de7004f7ddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c7aa22cd6c56c722f8ea9692b0f242') in 0.028745 seconds 
-  Import took 0.033312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 928.074211 seconds.
-  path: Assets/Foxxee's Spheres/Textures
-  artifactKey: Guid(180acf7edc8758a4eb218c23e6860fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures using Guid(180acf7edc8758a4eb218c23e6860fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e9eef09570478b726c1732146fd1fb') in 0.002236 seconds 
-  Import took 0.006834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.231912 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_01.png
-  artifactKey: Guid(91857f17477ef7c4d9695489189fe039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_01.png using Guid(91857f17477ef7c4d9695489189fe039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ff2285b0a8ed949d099ecda4af5c71') in 0.075594 seconds 
-  Import took 0.079942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_12.png
-  artifactKey: Guid(a29717b3ad543ee43aea62b14b377ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_12.png using Guid(a29717b3ad543ee43aea62b14b377ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20695fcc1365a27e1036d84e9e506844') in 0.073485 seconds 
-  Import took 0.077177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_04.png
-  artifactKey: Guid(6f5d42c20f75b514ea035c99c2528a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_04.png using Guid(6f5d42c20f75b514ea035c99c2528a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d96c7720684dc20c7da007915e513d') in 0.073739 seconds 
-  Import took 0.077428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_02.png
-  artifactKey: Guid(408e62272de707641a0331c40bae0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_02.png using Guid(408e62272de707641a0331c40bae0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4402493b3267ab2217f60f82d574e929') in 0.073084 seconds 
-  Import took 0.077456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_10.png
-  artifactKey: Guid(2abbb63d109ea234eba6c5decf44a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_10.png using Guid(2abbb63d109ea234eba6c5decf44a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7914a0ac16ff2e9b138684f2beb29e9') in 0.075056 seconds 
-  Import took 0.079073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_09.png
-  artifactKey: Guid(076fb3252d18d9348b76da44f2dcb224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_09.png using Guid(076fb3252d18d9348b76da44f2dcb224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b00500000314608c2421fb5b63fa6e') in 0.073412 seconds 
-  Import took 0.077153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_20.png
-  artifactKey: Guid(e23c036ce3243df43bcea9f4660ebc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_20.png using Guid(e23c036ce3243df43bcea9f4660ebc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc9593f5a52ed1baa4cebefe23075c7') in 0.072717 seconds 
-  Import took 0.076361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_14.png
-  artifactKey: Guid(96506f19a1a13554d8879ed7d840bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_14.png using Guid(96506f19a1a13554d8879ed7d840bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4d8f64d22b252bce6999f307974276') in 0.071676 seconds 
-  Import took 0.075426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_05.png
-  artifactKey: Guid(cde326d840da42041af7622decf07b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_05.png using Guid(cde326d840da42041af7622decf07b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a580fbbcb867ed2c025269626baf85') in 0.072470 seconds 
-  Import took 0.076206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_15.png
-  artifactKey: Guid(e8dcdfd216b40ce4ea59bea1a3760a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_15.png using Guid(e8dcdfd216b40ce4ea59bea1a3760a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a1ed428b01caa520f4e68ff4bebf80') in 0.077273 seconds 
-  Import took 0.081532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_19.png
-  artifactKey: Guid(970dec9435646784d864d96d83c78851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_19.png using Guid(970dec9435646784d864d96d83c78851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dea4030047cbeb7fcd04202cef97c1') in 0.075715 seconds 
-  Import took 0.079594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_08.png
-  artifactKey: Guid(e1662a432b4311e4cb33713a5813994a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_08.png using Guid(e1662a432b4311e4cb33713a5813994a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387cde96e7d9661573fc1b760a50bb14') in 0.073321 seconds 
-  Import took 0.078305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_18.png
-  artifactKey: Guid(25d9f53d1c211a24a9d06c55a7d946b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_18.png using Guid(25d9f53d1c211a24a9d06c55a7d946b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e22d3bb1281ebe5065ce7afcd83ea10') in 0.076765 seconds 
-  Import took 0.080800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_13.png
-  artifactKey: Guid(9ccad20f9d5c52541bcf175710b5e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_13.png using Guid(9ccad20f9d5c52541bcf175710b5e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04ca801cd443a50c3055a0892f51e39') in 0.073306 seconds 
-  Import took 0.078168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_17.png
-  artifactKey: Guid(e1e1b6698440376478d53dc7a272ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_17.png using Guid(e1e1b6698440376478d53dc7a272ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb7e0162477f21fef6819338f08eb0e') in 0.074103 seconds 
-  Import took 0.078429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_03.png
-  artifactKey: Guid(8278d5cc3d1a34b4d8cb009e4a7cc9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_03.png using Guid(8278d5cc3d1a34b4d8cb009e4a7cc9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8619d7999aee7fe199d31c3b8933655') in 0.072311 seconds 
-  Import took 0.076069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_06.png
-  artifactKey: Guid(8dc61694071571c40b031d48e0058b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_06.png using Guid(8dc61694071571c40b031d48e0058b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c96561f7f4379a67bddf1d5f7383f7') in 0.072715 seconds 
-  Import took 0.076923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_16.png
-  artifactKey: Guid(c77bb4bf425a2b343b68e56e97756e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_16.png using Guid(c77bb4bf425a2b343b68e56e97756e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac60edce91f7edaa8b2acc982aa7e0d') in 0.071494 seconds 
-  Import took 0.075311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_07.png
-  artifactKey: Guid(ae5109c5ffa2d824194dcb27f66136d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_07.png using Guid(ae5109c5ffa2d824194dcb27f66136d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b6076039fe19156dc25a9db9835dad') in 0.072494 seconds 
-  Import took 0.076283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_11.png
-  artifactKey: Guid(aea2bf14d45a0b842baaf1ca9e3474fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_11.png using Guid(aea2bf14d45a0b842baaf1ca9e3474fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf78dd0f1a62bdff9a28c214c74883f5') in 0.072533 seconds 
-  Import took 0.076362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.611829 seconds.
-  path: Assets/Foxxee's Spheres/Materials/Particle_Mat.mat
-  artifactKey: Guid(248f786d88d91174b9404eb60f607098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Materials/Particle_Mat.mat using Guid(248f786d88d91174b9404eb60f607098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fea5cb23b12224094dfc0e2b53a72fb') in 0.092345 seconds 
-  Import took 0.096744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.327635 seconds.
-  path: Assets/Foxxee's Spheres/DemoSettings.lighting
-  artifactKey: Guid(8d2a51735e22ae44ea0b83f59b9af24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/DemoSettings.lighting using Guid(8d2a51735e22ae44ea0b83f59b9af24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'd24f6eeebd57ae3867c85c5526a17383') in 0.006606 seconds 
-  Import took 0.011226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.347101 seconds.
-  path: Assets/Foxxee's Spheres/Demo.unity
-  artifactKey: Guid(d475e6f4f47b90344abfccdc396ee81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Demo.unity using Guid(d475e6f4f47b90344abfccdc396ee81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47eadb7e8741c5c4a7bb12503aab6053') in 0.002609 seconds 
-  Import took 0.006571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.364681 seconds.
-  path: Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_02.png
-  artifactKey: Guid(408e62272de707641a0331c40bae0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Foxxee's Spheres/Textures/Foxxee's Spheres_02.png using Guid(408e62272de707641a0331c40bae0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827a6148fc588ab7a21c1cce54531fa8') in 0.070253 seconds 
-  Import took 0.074628 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006018 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1000ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (825ms)
-			LoadAssemblies (96ms)
+		EndReloadAssembly (781ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
+			SetupTypeCache (279ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (291ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (170ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (172ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.3 MB.
-System memory in use after: 143.1 MB.
+Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.3 MB.
 
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 3595.
-Total: 5.273200 ms (FindLiveObjects: 0.341000 ms CreateObjectMapping: 0.082400 ms MarkObjects: 3.054000 ms  DeleteObjects: 1.794400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3607.
+Total: 3.925100 ms (FindLiveObjects: 0.306800 ms CreateObjectMapping: 0.078000 ms MarkObjects: 3.516400 ms  DeleteObjects: 0.022700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -778,108 +314,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1111.619651 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(8836c61a00c66c3479441a96fb3c6c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(8836c61a00c66c3479441a96fb3c6c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70afdad7ab881e799a5cc48a019d3840') in 0.007087 seconds 
-  Import took 0.011874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.682797 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(4ba94ec08ba5aa04d9388585a3a8fac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(4ba94ec08ba5aa04d9388585a3a8fac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390c1e7a631bdf8ab1cc38a14ebd8a75') in 0.002308 seconds 
-  Import took 0.006289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.653914 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd715bdea216796ee702dc37d4f414621') in 0.010426 seconds 
-  Import took 0.015136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.214577 seconds.
-  path: Assets/Materials/Cell Membrane.mat
-  artifactKey: Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cell Membrane.mat using Guid(458c21e81d0fcd04e9ac97b7c05b1484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f711c0c4f202070df09cda3794ac09') in 0.099211 seconds 
-  Import took 0.103852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.396170 seconds.
-  path: Assets/Textures/water.jpg
-  artifactKey: Guid(91c7aa8df7844ac459b959b72f3a6ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/water.jpg using Guid(91c7aa8df7844ac459b959b72f3a6ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f08e321ea3b36fc1e8e1dfc10e7f6c') in 0.018033 seconds 
-  Import took 0.022516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 102.520856 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26639fd2d9b09234e330bb83571ba472') in 0.038676 seconds 
-  Import took 0.042981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bfc51c5222557aa47c55c3d1b82acd') in 0.064525 seconds 
-  Import took 0.068337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a362b8fe5ce36b302051eaf90a735') in 0.063721 seconds 
-  Import took 0.068223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 119.483291 seconds.
-  path: Assets/Materials/Cell Core.mat
-  artifactKey: Guid(c61eb58a1c2d8be4e8424c711b458b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cell Core.mat using Guid(c61eb58a1c2d8be4e8424c711b458b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d530968820b239082b137d8faf4c01e') in 0.009757 seconds 
-  Import took 0.014399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.560459 seconds.
-  path: Assets/Textures/water.jpg
-  artifactKey: Guid(91c7aa8df7844ac459b959b72f3a6ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/water.jpg using Guid(91c7aa8df7844ac459b959b72f3a6ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a24c01d0793abfff8746a83c001a91') in 0.011218 seconds 
-  Import took 0.015613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 284.975811 seconds.
-  path: Assets/Textures/red1.jpg
-  artifactKey: Guid(85052561e7846fd42be8ec5abdfa8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/red1.jpg using Guid(85052561e7846fd42be8ec5abdfa8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c553fee40601e62e4770b5c921970af6') in 0.069357 seconds 
-  Import took 0.073968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 475.934014 seconds.
-  path: Assets/Prefabs/Cell Base.prefab
-  artifactKey: Guid(ae6b687706a86504f9420c0cebf25db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cell Base.prefab using Guid(ae6b687706a86504f9420c0cebf25db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087df5525dfc5d719a5ee08f22606182') in 0.073963 seconds 
-  Import took 0.079247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.799377 seconds.
-  path: Assets/Prefabs/Cell Base.prefab
-  artifactKey: Guid(ae6b687706a86504f9420c0cebf25db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cell Base.prefab using Guid(ae6b687706a86504f9420c0cebf25db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2d127b9cd05d6758eae981e94ad9b0') in 0.076497 seconds 
-  Import took 0.081500 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
