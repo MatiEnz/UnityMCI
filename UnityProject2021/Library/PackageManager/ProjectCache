@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637732011945540349
-    m_Hash: 228423906
+      ticks: 637731752853946305
+    m_Hash: 2401614295
   m_LockFileStatus:
     m_FilePath: C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637732011945540349
-    m_Hash: 695650797
+      ticks: 637731752854036316
+    m_Hash: 2758396760
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -1265,6 +1265,7 @@ m_PackageAssets:
         - 4.2.0
         - 4.2.1
         - 5.0.0-pre.5
+        - 5.0.0-pre.6
         compatible:
         - 1.0.0-preview.12
         - 1.0.0-preview.13
@@ -1517,6 +1518,7 @@ m_PackageAssets:
         - 4.2.0
         - 4.2.1
         - 5.0.0-pre.5
+        - 5.0.0-pre.6
         compatible:
         - 1.0.0-preview.11
         - 1.0.0-preview.12
@@ -3540,6 +3542,7 @@ m_PackageAssets:
         - 4.2.0
         - 4.2.1
         - 5.0.0-pre.5
+        - 5.0.0-pre.6
         compatible:
         - 4.1.7
         - 4.2.0-pre.2
