@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9650fdeca37bb34482a3aab2afcb70c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawntime_min: 2
-  spawntime_max: 5
+  spawntime_min: 3
+  spawntime_max: 6
   objectToSpawn: {fileID: 6184603367023247375, guid: 468db55fc2e2b3d498fd078d68124e9e, type: 3}
   spawnInLine: 0
 --- !u!114 &4300989123205152886
@@ -89,15 +89,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3848165449095671304}
-  m_LocalRotation: {x: -0.5420014, y: 0.4541305, z: -0.5696071, w: -0.41898426}
-  m_LocalPosition: {x: -0.039, y: 0.15, z: 0}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.5}
+  m_LocalPosition: {x: 0, y: 0.15, z: 0}
   m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
   m_Children:
   - {fileID: 4682836214455694176}
   - {fileID: 7071246696907104873}
   m_Father: {fileID: 8099859781990700457}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 103.70401, y: 270, z: 3.621994}
+  m_LocalEulerAnglesHint: {x: 90, y: 270, z: 0}
 --- !u!33 &519407654251585349
 MeshFilter:
   m_ObjectHideFlags: 0
