@@ -52,6 +52,7 @@ public class VirusLogic : MonoBehaviour
                 StartCoroutine(Wait());
 
                 virusAnimator.SetBool("dead",true);  
+                Global.points = Global.points + 1;
             } 
             else
             {

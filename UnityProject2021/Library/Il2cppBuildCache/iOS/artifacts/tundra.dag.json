@@ -31,6 +31,9 @@
         "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/System.Core.dll",
         "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/System.dll",
         "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Unity.Mathematics.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
         "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
         "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
         "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
@@ -58,6 +61,7 @@
         "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
         "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
         "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
         "C:/Users/matie/OneDrive/Dokumente/GitHub/UnityMCI/UnityProject2021/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
         "\"C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
       ],
