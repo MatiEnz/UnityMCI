@@ -12,12 +12,9 @@ public class Global : MonoBehaviour
      public Text pointText;
      public Text neededPointText;
 
-         private void Update()
-    {
-        
-        pointText.text = points.ToString();
-        neededPointText.text = neededPoints.ToString();
-        
+
+    void Start() {
+
         if(StartMenu.current_level == 1)
         {
             neededPoints = 10;
@@ -30,13 +27,20 @@ public class Global : MonoBehaviour
         {
             neededPoints = 30;
         }
+    }
+    void Update()
+    {
+        
+        pointText.text = points.ToString();
+        neededPointText.text = neededPoints.ToString();
+
 
         if(points >= neededPoints)
         {
             SceneManager.LoadScene(2);
         }   
 
-        if(count >= 10)
+        if(count >= 20)
         {
             SceneManager.LoadScene(3);
         }    
