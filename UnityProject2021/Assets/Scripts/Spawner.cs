@@ -4,8 +4,8 @@ using UnityEngine;
 
  public class Spawner: MonoBehaviour {
  
- public float spawntime_min = 1.0f;
- public float spawntime_max = 7.0f;
+ public float spawntime_min; // default:1
+ public float spawntime_max; // default:7
  private float spawntime_countdown = 3.0f;
  public GameObject objectToSpawn;
  private float spawnX;
@@ -13,6 +13,26 @@ using UnityEngine;
  private float spawnZ;
  private Vector3 spawnPosition;
  [SerializeField] private bool spawnInLine = false;
+
+
+  void Start()
+  {
+    if(StartMenu.current_level == 1)
+    {
+      spawntime_min = 3.0f; 
+      spawntime_max = 8.0f; 
+    }
+    if(StartMenu.current_level == 2)
+    {
+      spawntime_min = 2.0f; 
+      spawntime_max = 7.0f; 
+    } 
+    if(StartMenu.current_level == 3)
+    {
+      spawntime_min = 1.0f; 
+      spawntime_max = 6.0f; 
+    }       
+  }
 
  void Update()
   {
@@ -44,7 +64,6 @@ using UnityEngine;
     }
 
     Instantiate(objectToSpawn, spawnPosition, transform.rotation);
-    //Instantiate(objectToSpawn, new Vector3(spawnX,spawnY,spawnZ), transform.rotation, gameObject.transform);
     spawntime_countdown = Random.Range(spawntime_min,spawntime_max);
  }
  
