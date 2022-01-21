@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Menu.unity
+    guid: b7ffc4e8e8e2f134cb695ada40130985
+  - enabled: 1
+    path: Assets/Scenes/GameLevel.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: f557933378f52f54e84452a42d26b227
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: d0fd529b0f0865147b5dce1f00f1720c
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: e8fa1f153860b4842a7ae43c66013d68, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 742483d8258da954da11b421a0fe0cd9, type: 2}

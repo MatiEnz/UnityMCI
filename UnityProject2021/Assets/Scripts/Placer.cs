@@ -9,34 +9,68 @@ public class Placer : MonoBehaviour
     public GameObject placementIndicator;
     public ARRaycastManager raycastManager;
     public GameObject shootingEngine;
+    public GameObject AcceptScreen;
     public static Pose newOrigin;
     private ARSessionOrigin arOrigin;
     private Pose placementPose;
+    private Pose placementPoseSelected;
     private bool placementPoseIsValid = false;
+    private bool userPlaced = false;
+    private bool userAccepted = false;
+    private bool userRejected = false;
 
     void Start()
     {
+        AcceptScreen.SetActive(false);
         arOrigin = FindObjectOfType<ARSessionOrigin>();
     }
 
     void Update()
     {
-        UpdatePlacementPose();
-        UpdatePlacementIndicator();
+        if(userPlaced == false)
+        {
+         UpdatePlacementPose();
+         UpdatePlacementIndicator();  
+        }
 
-        if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+
+        if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began && userPlaced == false)
+        {
+            userPlaced = true;
+            placementPoseSelected = placementPose;
+            AcceptScreen.SetActive(true);
+        }
+
+        if(userPlaced && userAccepted)
         {
             PlaceObject();
-            newOrigin = placementPose;
+            newOrigin = placementPoseSelected;
             placementIndicator.SetActive(false);
             shootingEngine.SetActive(true);
-            enabled = false;
+            AcceptScreen.SetActive(false);
+            enabled = false;   
         }
+
+        if(userPlaced && userRejected)
+        {
+           userPlaced = false;           
+           AcceptScreen.SetActive(false);
+           userRejected = false;
+        }
+    }
+
+     public void userAccept()
+    {
+            userAccepted = true;
+    }
+     public void userReject()
+    {
+            userRejected = true;
     }
 
     private void PlaceObject()
     {
-        Instantiate(objectToPlace, placementPose.position, placementPose.rotation);
+        Instantiate(objectToPlace, placementPoseSelected.position, placementPoseSelected.rotation);
     }
 
     private void UpdatePlacementIndicator()
