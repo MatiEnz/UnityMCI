@@ -72,8 +72,10 @@ m_PackageAssets:
         - 1.13.5
         - 1.14.1
         - 1.14.4
+        - 1.14.7
         - 1.15.1
         - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -88,8 +90,10 @@ m_PackageAssets:
         - 1.13.5
         - 1.14.1
         - 1.14.4
+        - 1.14.7
         - 1.15.1
         - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -477,9 +481,11 @@ m_PackageAssets:
         - 10.5.1
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         compatible:
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         verified: 10.6.0
       dependencies:
       - name: com.unity.mathematics
@@ -646,9 +652,11 @@ m_PackageAssets:
         - 10.5.1
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         compatible:
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         verified: 10.6.0
       dependencies:
       - name: com.unity.render-pipelines.core
