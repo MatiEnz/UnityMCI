@@ -15,11 +15,11 @@ C:/Users/mstei/OneDrive/Desktop/Medical technologie Kram/AR/UnityMCI/UnityProjec
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55112
+53006
 Successfully changed project path to: C:/Users/mstei/OneDrive/Desktop/Medical technologie Kram/AR/UnityMCI/UnityProject2021
 C:/Users/mstei/OneDrive/Desktop/Medical technologie Kram/AR/UnityMCI/UnityProject2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 87.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 112.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -35,175 +35,175 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001658 seconds.
+Registered in 0.002238 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 109.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 104.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.609 seconds
+- Completed reload, in  2.058 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1609ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (2058ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (793ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (927ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
+			SetupTypeCache (327ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (329ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (340ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (147ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008866 seconds.
+Registered in 0.010867 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000025DF67F3020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file data-000001C9EFCA7020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0702A40 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001C9F4D94840 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09F8CC0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000001C9F4C58380 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF593E010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000001C9F5045020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0B6C220 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001C9F5045020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF67F3020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C9EFCA7020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5958820 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C9EF901230 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF08B04B0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-000001C9EFCA7020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09D5870 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C9F44DCE30 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF60A9040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001C9F3F35020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF04329E0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file data-000001C9EEF8BA30 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF4FBEC90 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001C9F3F63230 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0764100 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000001C9F3D62630 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0801440 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001C9EF041EB0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09D5870 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001C9F3DFC430 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0764100 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file data-000001C9F3D62630 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5C116F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-000001C9EF69DA00 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF67F3020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001C9EFCA7020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF55FB020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001C9F3E31020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5F13020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001C9F44E4E40 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF088FED0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000001C9F4113B10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF560CC30 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C9F3F89020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5F2E440 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-000001C9F4F2CDE0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF10DE030 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001C9EF4DFA10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF50CD020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001C9F43A8010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF58D0020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000001C9F4450020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF596AA30 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001C9F44E4E40 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF52B1020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001C9F3F97030 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF6385C70 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-000001C9EF4C7010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5297D20 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000001C9F41157F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5297B10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000001C9F41157F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF52B1020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001C9F4085020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF602F3D0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file data-000001C9F46D4C40 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF61D69F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-000001C9F46D4C40 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF61D69F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-000001C9F46D4C40 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF113E020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001C9EF67AA40 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09EA280 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C9F3FBF640 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09EA280 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file data-000001C9EF7DAA50 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0829020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file data-000001C9EF4B4730 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0E9D5C0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-000001C9F4BCD060 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF52D9630 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000001C9F40A8230 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09EA280 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file data-000001C9EF7DAA50 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 180.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 120.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.508 seconds
+- Completed reload, in  2.605 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3510ms)
-		BeginReloadAssembly (332ms)
+	ReloadAssembly (2607ms)
+		BeginReloadAssembly (333ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (3013ms)
-			LoadAssemblies (237ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (2129ms)
+			LoadAssemblies (187ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1217ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (153ms)
-			SetupLoadedEditorAssemblies (892ms)
+			SetupTypeCache (686ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (874ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (180ms)
-				BeforeProcessingInitializeOnLoad (281ms)
-				ProcessInitializeOnLoadAttributes (391ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (515ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 148.1 MB.
 System memory in use after: 148.3 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3597.
-Total: 6.788700 ms (FindLiveObjects: 0.442500 ms CreateObjectMapping: 0.236600 ms MarkObjects: 5.910600 ms  DeleteObjects: 0.196800 ms)
+Total: 7.635700 ms (FindLiveObjects: 0.469200 ms CreateObjectMapping: 0.281900 ms MarkObjects: 6.706500 ms  DeleteObjects: 0.175700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -218,919 +218,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(b7ffc4e8e8e2f134cb695ada40130985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(b7ffc4e8e8e2f134cb695ada40130985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cf5589ba020d343feaeae1203045ce') in 0.035368 seconds 
-  Import took 0.045087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.651300 seconds.
-  path: Assets/Scripts/StartMenu.cs
-  artifactKey: Guid(6c9669d907a856043a85713514e48f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/StartMenu.cs using Guid(6c9669d907a856043a85713514e48f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b93c814279a0d111f939589fe69af01') in 0.063295 seconds 
-  Import took 0.073995 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013322 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025DF09FC020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5F14E40 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09FADC0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF55FB020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9EF2040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09FC020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5534440 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5C0C020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF070D880 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF086D5E0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0434420 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF8658030 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF61D3800 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF658F990 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF86E0010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFC167020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA9C82C0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09FC020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09B6460 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF074E020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09F1650 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF62C9010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFAC90B80 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFBEEF1B0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0FCA050 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0BA28C0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF074E020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF62C9010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF60E0250 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09EF340 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09F1020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF52B1020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025C65F3B510 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF553F250 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF553F250 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9200080 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF070D880 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF070D880 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFBF32FF0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFBE6BA80 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF62C9010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF070D880 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.817 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2818ms)
-		BeginReloadAssembly (301ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (94ms)
-		EndReloadAssembly (2266ms)
-			LoadAssemblies (260ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (828ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (785ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (244ms)
-				ProcessInitializeOnLoadAttributes (498ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.0 MB.
-System memory in use after: 139.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3600.
-Total: 9.053500 ms (FindLiveObjects: 0.479200 ms CreateObjectMapping: 0.232700 ms MarkObjects: 8.296700 ms  DeleteObjects: 0.043000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 862.392515 seconds.
-  path: Assets/Scripts/StartMenu.cs
-  artifactKey: Guid(6c9669d907a856043a85713514e48f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/StartMenu.cs using Guid(6c9669d907a856043a85713514e48f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1844a6c56a3f9442672142224a67856') in 0.101164 seconds 
-  Import took 0.141446 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.039628 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025DF6689030 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF50B8BC0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF943FC50 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF527F020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9418030 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF8E30010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9909010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5C0C020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF070D880 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF086D5E0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0432C80 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF982D0A0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF042EA30 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF6CB5940 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF62C9010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF042EA30 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA9C82C0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF8E30010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF593E010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF10D4010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF558DD40 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF8BDE020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E1CDB8CA0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9793CD0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0FCA050 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF6F02010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF10D4010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF8BDE020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFC4EE230 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF558D2F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5593E30 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF52B1020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5B1B520 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DC820CB30 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9913E20 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9200080 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5534440 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF070D880 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF8CB2280 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E1CCA9FE0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF8BDE020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5F0B010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 15.932 seconds
-Domain Reload Profiling:
-	ReloadAssembly (15934ms)
-		BeginReloadAssembly (704ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (36ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (222ms)
-		EndReloadAssembly (14583ms)
-			LoadAssemblies (796ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (5742ms)
-			ReleaseScriptCaches (10ms)
-			RebuildScriptCaches (318ms)
-			SetupLoadedEditorAssemblies (5724ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (25ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (1720ms)
-				ProcessInitializeOnLoadAttributes (3695ms)
-				ProcessInitializeOnLoadMethodAttributes (135ms)
-				AfterProcessingInitializeOnLoad (104ms)
-				EditorAssembliesLoaded (7ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (153ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 3.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.1 MB.
-System memory in use after: 139.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3603.
-Total: 23.262300 ms (FindLiveObjects: 1.574000 ms CreateObjectMapping: 1.077800 ms MarkObjects: 20.263300 ms  DeleteObjects: 0.340000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 68.633008 seconds.
-  path: Assets/Scripts/Shoot.cs
-  artifactKey: Guid(ada141a86a3824445a8f298e74b9c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Shoot.cs using Guid(ada141a86a3824445a8f298e74b9c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b224d426f5dbd5e46b4a6172b76dd074') in 0.040435 seconds 
-  Import took 0.059973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.702515 seconds.
   path: Assets/Scripts/GameOverMenu.cs
   artifactKey: Guid(6a57bc8428956034ab41ba7230db667b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameOverMenu.cs using Guid(6a57bc8428956034ab41ba7230db667b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144c874f27c8b79eea17ba71b5c5e1e0') in 0.034590 seconds 
-  Import took 0.050066 seconds .
+Start importing Assets/Scripts/GameOverMenu.cs using Guid(6a57bc8428956034ab41ba7230db667b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e850c84a70a8ef4dea3a4c2d79a1da1') in 0.053486 seconds 
+  Import took 0.063022 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008843 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025DFA7DEB10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFBBBDA20 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFAFF2210 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA87BE20 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9418030 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA7DEB10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA67C820 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5C0C020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFBBC1250 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA7913E0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFB2A4C00 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFAD03040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFBE04040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA4F1210 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF88AC010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5F2C040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA902A80 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA1B4020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA5AC760 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9D8C010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA824A80 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF868E040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E1CDBC3F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9799790 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0FCA050 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF6F02010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9D8C010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF868E040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF60E0250 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA80C130 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA809C10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0930E00 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF60E0250 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF60E0250 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF60E0250 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF8E36140 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9FA04B0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA9B7F60 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5AC8430 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E1CCA05D0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF868E040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5F0B010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.831 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1832ms)
-		BeginReloadAssembly (190ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (1533ms)
-			LoadAssemblies (142ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (550ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (532ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (187ms)
-				ProcessInitializeOnLoadAttributes (319ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.1 MB.
-System memory in use after: 139.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3606.
-Total: 5.239700 ms (FindLiveObjects: 0.363300 ms CreateObjectMapping: 0.195100 ms MarkObjects: 4.654300 ms  DeleteObjects: 0.025600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 203.386103 seconds.
-  path: Assets/Scripts/StartMenu.cs
-  artifactKey: Guid(6c9669d907a856043a85713514e48f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/StartMenu.cs using Guid(6c9669d907a856043a85713514e48f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a816c2acc5015e626e1fa23f4da81c0f') in 0.013085 seconds 
-  Import took 0.023510 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006255 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025DFA7DEB10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF10DBAF0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF61D2BF0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF55FB020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5682020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA7DEB10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA67C820 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5C0C020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA9B7F60 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA5F1130 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFB2A4C00 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFB3E98D0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09FC020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA52BD50 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF868E040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF09FC020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA582270 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF88BE020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA7913E0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF51123F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA5E5490 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF55B9010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E1CDBDA10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA6AAB20 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0FCA050 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0BA28C0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF51123F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF55B9010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFBE73020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF63540A0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF6355750 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0930E00 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0785D40 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFC0B44F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5327010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA624CA0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9FA04B0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA9B7F60 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5AC8430 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5A6B020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF55B9010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5F0B010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.925 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1926ms)
-		BeginReloadAssembly (186ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1618ms)
-			LoadAssemblies (164ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (605ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (552ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (182ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.1 MB.
-System memory in use after: 139.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3609.
-Total: 5.888400 ms (FindLiveObjects: 0.595100 ms CreateObjectMapping: 0.303800 ms MarkObjects: 4.959300 ms  DeleteObjects: 0.028300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012097 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025DFA7DEB10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFBBCB080 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFABC44E0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF55FB020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA5CC7A0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA7DEB10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA67C820 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5C0C020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5F1C3F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA5F1130 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFB2A7600 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA568270 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF1120010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA522FE0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF868E040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF1120010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF65352B0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA7DEB10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA7913E0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFB95A030 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0A7CB30 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA987020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E1CDC3DA0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA9BAD10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0FCA050 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0BA28C0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF51123F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA05ABF0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFBE73020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0A7EC30 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0A7B060 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0930E00 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9FAA4D0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFC0B44F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9FAA4D0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF113E020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF070D880 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF52E3010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5AC8430 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5A685A0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA987020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5F0B010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.436 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2437ms)
-		BeginReloadAssembly (226ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (2083ms)
-			LoadAssemblies (203ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (746ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (723ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (240ms)
-				ProcessInitializeOnLoadAttributes (448ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.1 MB.
-System memory in use after: 139.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3612.
-Total: 10.563300 ms (FindLiveObjects: 0.588700 ms CreateObjectMapping: 0.409900 ms MarkObjects: 9.530200 ms  DeleteObjects: 0.032200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.039167 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025DFA7DEB10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFBBBDA20 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF6028730 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF55FB020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA430080 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA7DEB10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA67C820 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5C0C020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5F1C3F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF086D5E0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFB2A6640 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA568270 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF077FD20 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA524FD0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF868E040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF077FD20 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF882ABB0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA7DEB10 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5D6E020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF51123F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFABC5B90 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E1CE9C020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E1CDC53C0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA5DE060 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0FCA050 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0BA28C0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF51123F0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E1CE9C020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFBE73020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA5E1AD0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA5E2100 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF9200F00 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFB95E040 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFC0A22E0 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF0752030 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF08CD950 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF52E3010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFA430080 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5AC8430 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DFAA6D270 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025E1CE9C020 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025DF5F0B010 doesn't match image C:\Users\mstei\OneDrive\Desktop\Medical technologie Kram\AR\UnityMCI\UnityProject2021\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.903 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5906ms)
-		BeginReloadAssembly (504ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (182ms)
-		EndReloadAssembly (5093ms)
-			LoadAssemblies (376ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1616ms)
-			ReleaseScriptCaches (9ms)
-			RebuildScriptCaches (161ms)
-			SetupLoadedEditorAssemblies (2120ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (695ms)
-				ProcessInitializeOnLoadAttributes (1325ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
-				AfterProcessingInitializeOnLoad (21ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (48ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.1 MB.
-System memory in use after: 139.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3615.
-Total: 13.778500 ms (FindLiveObjects: 1.010700 ms CreateObjectMapping: 0.503500 ms MarkObjects: 12.105200 ms  DeleteObjects: 0.153200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
