@@ -8,11 +8,16 @@ public class StartMenu : MonoBehaviour
 
 {
 
+
    public Text levelNumber;
    public static int current_level = 1;
+   public Text HSText;
+  
+
    public void StartGame()
    {
-       SceneManager.LoadScene(1);
+       SceneManager.LoadScene(0);
+      HSText.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
    }
  public void levelSelect()
   {
